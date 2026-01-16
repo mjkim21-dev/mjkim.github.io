@@ -1,6 +1,6 @@
 site_name: EGR 314 Data Sheet Michael
 site_url: https://mjkim21-dev.github.io/mjkim.github.io/
-repo_url: https://github.com/embedded-systems-design/EGR314DataSheetTemplate
+repo_url: https://github.com/mjkim21-dev/mjkim.github.io
 edit_uri: edit/main/docs/
 theme:
   name: material
