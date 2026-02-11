@@ -12,7 +12,7 @@ The following sections are the selected major components necessary for  .....
 
 (**remove this note/placeholder**: this is where your 3.3 volt switching regulator, any other needed power regulator, and power source {if applicable} **THAT WERE SELECTED**)
 
-For more details, review the ["Appendix - Component Selection Process - Power Mangement"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#power-management) selection.
+For more details, review the ["Appendix - Component Selection Process - Power Management"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#power-management) selection.
 
 ### Sensor
 
@@ -22,26 +22,10 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
 
 ### Actuator
 
-(**remove this note/placeholder**: if applicable, this is where your **Selected** the actuator items go, which includes both the driver and motor. Otherwise, remove this section.)
+(**remove this note/placeholder**: if applicable, this is where your **Selected** actuator items go, which includes both the driver and motor. Otherwise, remove this section.)
 
 For more details, review the ["Appendix - Component Selection Process - Actuator"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#actuator) selection.
 
------------
-> Remove the following before submitting! Use them to present the selected components
-
-### Style 1
-
-> This is the example found in the assignment, uses more html
-
-*Table 1: Example component selection*
-
-**External Clock Module**
-
-| **Component**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ![](image1.png)<br> XC1259TR-ND surface mount crystal<br>$1/each<br>[link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)                 | \* Inexpensive[^1]<br>\* Compatible with PSoC<br>\* Meets surface mount constraint of project                                               | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
-
-**Rationale:** A clock oscillator is easier ....
 
 ### Style 2
 
@@ -63,3 +47,20 @@ For more details, review the ["Appendix - Component Selection Process - Actuator
     | Meets surface mount constraint of project |
 
 **Rationale:** A clock oscillator is easier ...
+
+**External Clock Module 2**
+
+1. XC1259TR-ND surface mount crystal
+
+    ![](image1.png)
+
+    * $3/each
+    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Inexpensive                               | Requires external components and support circuitry for interface |
+    | Compatible with PSoC                      | Needs special PCB layout.                                        |
+    | Meets surface mount constraint of project |
+
+**Rationale:** A clock oscillator 2 is easier ...
