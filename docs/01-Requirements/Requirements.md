@@ -8,9 +8,11 @@ The following table includes requirements for the Gain and Exposure system. You 
 | **Requirement Description** | **Measure of<br> Threshold** | **Target<br>Measure** |**Stretch<br>Requirement<br>(Y-N)**|
 |-----------------------------| ----------------- | ----------------- | :-----: |
 | Surface mounted, 3.3V switching power regulator | 3.2 Volts | 3.3 Volts | No |
-| Surface mounted microcontroller to read and send value to main | 1 PIC or ESP | 8-bit PIC | No |
+| Surface-mounted microcontroller to read and send value to main |  ESP | ESP32 | No |
 | UART Communication | Reads and sends data | Can display data on main hub from sensor | No |
-| Light Sensor to measure desired luminance | Able to sense light and report back to main board| Illuminance (lux) | No |
-| Small Motors for Shutter control | Able to open and close lens for light control, probably with mini stepper or mini brushless dc motor| Open and close lens | Yes |
+| Wireless Communication | Able to send and receive data via. Bluetooth| Send/Receive Bluetooth | No |
+| Debuggers | Sufficient Debugging components such as LEDs and Test Pads | Can debug and help operate subsystem | No |
+| Power Sharing | Able to receive power from either plug in or a shared pin header | Can receive power through the UART bus | Yes |
+
 
 
