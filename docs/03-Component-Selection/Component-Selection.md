@@ -19,7 +19,7 @@ For more details, review the ["Appendix - Component Selection Process - Power Ma
 
 1. XC1259TR-ND surface mount crystal
 
-    ![](image1.png)
+    ![replace this](.png)
 
     * $1/each
     * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
@@ -34,9 +34,9 @@ For more details, review the ["Appendix - Component Selection Process - Power Ma
 
 **External Clock Module 2**
 
-1. XC1259TR-ND surface mount crystal
+2. XC1259TR-ND surface mount crystal
 
-    ![](image1.png)
+    ![replace this](.png)
 
     * $3/each
     * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
