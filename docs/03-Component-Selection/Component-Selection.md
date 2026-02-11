@@ -6,8 +6,6 @@ title: Module's Selected Major Components
 
 The following sections are the selected major components necessary for  .....
 
->**For each of the following sections, use <ins>one of the two styles</ins> given near the end. *REMOVE THIS NOTE***
-
 ### Power Management
 
 (**remove this note/placeholder**: this is where your 3.3 volt switching regulator, any other needed power regulator, and power source {if applicable} **THAT WERE SELECTED**)
