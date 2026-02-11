@@ -981,78 +981,19 @@
 <p>For more details, review the <a href="https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#power-management">"Appendix - Component Selection Process - Power Management"</a> selection.</p>
 <h2 id="major-component-selection">Major Component Selection</h2>
 <p><strong>External Clock Module</strong></p>
-<ol>
-<li>
-<p>XC1259TR-ND surface mount crystal</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href=".png" data-desc-position="bottom"><img alt="replace this" src=".png"></a></p>
-<ul>
-<li>$1/each</li>
-<li><a href="http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366">link to product</a></li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>Pros</th>
-<th>Cons</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Inexpensive</td>
-<td>Requires external components and support circuitry for interface</td>
-</tr>
-<tr>
-<td>Compatible with PSoC</td>
-<td>Needs special PCB layout.</td>
-</tr>
-<tr>
-<td>Meets surface mount constraint of project</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</li>
-</ol>
-<p><strong>Rationale:</strong> A clock oscillator is easier ...</p>
-<p><strong>External Clock Module 2</strong></p>
-<ol>
-<li>
-<p>XC1259TR-ND surface mount crystal</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href=".png" data-desc-position="bottom"><img alt="replace this" src=".png"></a></p>
-<ul>
-<li>$3/each</li>
-<li><a href="http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366">link to product</a></li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>Pros</th>
-<th>Cons</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Inexpensive</td>
-<td>Requires external components and support circuitry for interface</td>
-</tr>
-<tr>
-<td>Compatible with PSoC</td>
-<td>Needs special PCB layout.</td>
-</tr>
-<tr>
-<td>Meets surface mount constraint of project</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</li>
-</ol>
-<p><strong>Rationale:</strong> A clock oscillator 2 is easier ...</p>
+<p><em>Table 1: Example component selection</em>
+| <strong>Solution</strong>                                                                                                                                                                                    | <strong>Pros</strong>                                                                                                                                    | <strong>Cons</strong>                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href=".png" data-desc-position="bottom"><img alt="replace this" src=".png"></a><br>Option 1.<br> XC1259TR-ND surface mount crystal<br>$1/each<br><a href="http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366">link to product</a>                 | * Inexpensive[^1]<br>* Compatible with PSoC<br>* Meets surface mount constraint of project                                               | * Requires external components and support circuitry for interface<br>* Needs special PCB layout. |
+| <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href=".png" data-desc-position="bottom"><img alt="replace this" src=".png"></a><br>* Option 2. <br>* CTX936TR-ND surface mount oscillator <br>* $1/each <br>* <a href="http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940">Link to product</a> | * Outputs a square wave <br>* Stable over operating temperature <br> * Direct interface with PSoC (no external circuitry required) range | * More expensive <br>* Slow shipping speed                                                         |</p>
+<p><strong>Choice:</strong> Option 2: CTX936TR-ND surface mount oscillator</p>
+<p><strong>Rationale:</strong> A clock oscillator is easier to work with because it requires no external circuitry to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website, if we order this week it will arrive within 3 weeks.</p>
 <h2 id="microcontroller-selection">Microcontroller Selection</h2>
 <h3 id="my-contribution-to-the-team">My Contribution to the Team</h3>
 <p>For this subsytem, I am responsible for creating a bluetooth subssystem, my goal is to send and receive information to a host bluetooth.</p>
 <h3 id="esp32-s3-wroom-1-n4-pinout">ESP32-S3-WROOM-1-N4 pinout</h3>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../ESP-pin.png" data-desc-position="bottom"><img alt="PinOut" src="../ESP-pin.png"></a></p>
+<p><strong>Highlight the pins I plan to use or will be associated with my part</strong>
+  <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../ESP-pin.png" data-desc-position="bottom"><img alt="PinOut" src="../ESP-pin.png"></a></p>
 <h3 id="rationale-to-the-esp">Rationale to the ESP</h3>
 <p>The Esp was chosen because of its...</p>
 <h2 id="power-budget">Power Budget</h2>
