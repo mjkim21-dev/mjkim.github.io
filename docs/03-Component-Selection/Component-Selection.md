@@ -12,22 +12,8 @@ The following sections are the selected major components necessary for  .....
 
 For more details, review the ["Appendix - Component Selection Process - Power Management"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#power-management) selection.
 
-### Sensor
 
-(**remove this note/placeholder**: if applicable, this is where your  **SELECTED** sensor is shown. Otherwise, remove this section.)
-
-For more details, review the ["Appendix - Component Selection Process - Sensor"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#sensor) selection.
-
-### Actuator
-
-(**remove this note/placeholder**: if applicable, this is where your **Selected** actuator items go, which includes both the driver and motor. Otherwise, remove this section.)
-
-For more details, review the ["Appendix - Component Selection Process - Actuator"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#actuator) selection.
-
-
-### Major Component Selection
-
-> Also acceptable, more markdown friendly
+## Major Component Selection
 
 **External Clock Module**
 
