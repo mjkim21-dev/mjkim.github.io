@@ -25,7 +25,7 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
 For more details, review the ["Appendix - Component Selection Process - Actuator"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#actuator) selection.
 
 
-### Style 2
+### Major Component Selection
 
 > Also acceptable, more markdown friendly
 
@@ -62,3 +62,14 @@ For more details, review the ["Appendix - Component Selection Process - Actuator
     | Meets surface mount constraint of project |
 
 **Rationale:** A clock oscillator 2 is easier ...
+
+
+## Microcontroller Selection
+### My Contribution to the Team
+For this subsytem, I am responsible for creating a bluetooth subssystem, my goal is to send and receive information to a host bluetooth.
+
+
+### ESP32-S3-WROOM-1-N4 pinout
+  ![PinOut](ESP-pin.png)
+
+## Power Budget
