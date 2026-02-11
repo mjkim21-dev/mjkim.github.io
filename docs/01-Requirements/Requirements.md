@@ -3,7 +3,7 @@ title: Module's Requirements
 ---
 
 ## Camera: Gain and Exposure Requirements
-The following table includes requirements for the Gain and Exposure system. You can see the team project requirements [here](https://egr314-s-2026-304.github.io/03-Project-requirements/).
+The following table includes requirements for the Gain and Exposure system. You can see the team project requirements [here](https://egr314-s-2026-201.github.io/03-Project-Requirements/Project-requirements/).
 
 | **Requirement Description** | **Measure of<br> Threshold** | **Target<br>Measure** |**Stretch<br>Requirement<br>(Y-N)**|
 |-----------------------------| ----------------- | ----------------- | :-----: |
