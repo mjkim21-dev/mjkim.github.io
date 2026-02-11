@@ -72,4 +72,8 @@ For this subsytem, I am responsible for creating a bluetooth subssystem, my goal
 ### ESP32-S3-WROOM-1-N4 pinout
   ![PinOut](ESP-pin.png)
 
+
+### Rationale to the ESP
+The Esp was chosen because of its...
+
 ## Power Budget
