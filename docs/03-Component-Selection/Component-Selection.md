@@ -6,14 +6,21 @@ title: Module's Selected Major Components
 
 The following sections are the selected major components necessary for the A3 Bluetooth Subsystem. This subsytem primarily focuses on the Client stack in the main controller of the BLE system.
 
-### Power Management
-
-Subsystem A3 will utilized a shared 9V input power and use a Voltage regualtor from 9V to 3.3V which will be the voltage needed to operate the ESP. The regualtor will be ___ and will ensure the bluetooth connection works.
-
-For more details, review the ["Appendix - Component Selection Process - Power Management"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#power-management) selection.
-
-
 ## Major Component Selection
+
+
+ **Power Management**
+*Table 1: Regulator selection*
+| **Solution**                                                                                                                                                                                    | **Pros**                                                                                                                                    | **Cons**                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| ![replace this](.png)<br>Option 1.<br> AZ1117IH-3.3TRG1 <br>$0.24/each<br>[link to product](https://www.digikey.com/en/products/detail/diodes-incorporated/AZ1117IH-3-3TRG1/5699672)                 | \* Inexpensive[^1]<br>\* Compatible with ESP<br>\* Meets surface mount constraint of project                                               | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
+| ![replace this](.png)<br>\* Option 2. <br>\* AS78L05RTR-E1 <br>\* $0.13/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/diodes-incorporated/AS78L05RTR-E1/4470943) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed    |
+| ![replace this](.png)<br>\* Option 3. <br>\* TCR2EF33,LM(CT <br>\* $0.12/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/TCR2EF33-LM-CT/4503183) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed    |
+
+
+
+
+
 
 **External Clock Module**
 
