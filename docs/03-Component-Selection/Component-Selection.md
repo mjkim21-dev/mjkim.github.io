@@ -2,9 +2,9 @@
 title: Module's Selected Major Components
 ---
 
-## Module's Selected Major Components
+## Bluetooth Module's Selected Major Components
 
-The following sections are the selected major components necessary for  .....
+The following sections are the selected major components necessary for the A3 Bluetooth Subsystem. 
 
 ### Power Management
 
@@ -15,23 +15,22 @@ For more details, review the ["Appendix - Component Selection Process - Power Ma
 
 ## Major Component Selection
 
-
 **External Clock Module**
 
-*Table 1: Example component selection*
+*Table 1: Component selection*
 | **Solution**                                                                                                                                                                                    | **Pros**                                                                                                                                    | **Cons**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
 | ![replace this](.png)<br>Option 1.<br> XC1259TR-ND surface mount crystal<br>$1/each<br>[link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)                 | \* Inexpensive[^1]<br>\* Compatible with PSoC<br>\* Meets surface mount constraint of project                                               | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
-| ![replace this](.png)<br>\* Option 2. <br>\* CTX936TR-ND surface mount oscillator <br>\* $1/each <br>\* [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed                                                         |
+| ![replace this](.png)<br>\* Option 2. <br>\* CTX936TR-ND surface mount oscillator <br>\* $1/each <br>\* [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed                                                |
 
 **Choice:** Option 2: CTX936TR-ND surface mount oscillator
 
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website, if we order this week it will arrive within 3 weeks.
+**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website, if we order this week, it will arrive within 3 weeks.
 
 
 ## Microcontroller Selection
 ### My Contribution to the Team
-For this subsytem, I am responsible for creating a bluetooth subssystem, my goal is to send and receive information to a host bluetooth.
+For this subsystem, I am responsible for creating a bluetooth subssystem, my goal is to send and receive information to a host bluetooth.
 
 
 ### ESP32-S3-WROOM-1-N4 pinout
@@ -39,7 +38,7 @@ For this subsytem, I am responsible for creating a bluetooth subssystem, my goal
   ![PinOut](ESP-pin.png)
 
 
-### Rationale to the ESP
-The Esp was chosen because of its...
+### Rationale for the ESP
+The ESP32-S3-WROOM-1-N4 was chosen primarily because it supports native BLE communication and is available in a surface-mount module, satisfying the project requirement that all components be Surface Mounted. The ESP32 provides sufficient processing power and peripherals for BLE client operation. Required pins for this project include 3.3V and GND.
 
 ## Power Budget
