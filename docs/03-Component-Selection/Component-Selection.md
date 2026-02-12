@@ -8,10 +8,10 @@ The following sections are the selected major components necessary for the A3 Bl
 
 ## Major Component Selection
 
- ### Power Management
+### Power Management
  
 *Table 1: Regulator selection*
-| **Solution**                                                                                                                                                                                    | **Pros**                                                                                                                                    | **Cons**                                                                                            |
+| **Solution**                          | **Pros**                    | **Cons**                                    |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
 | ![Option 1](Option1.webp)<br>Option 1.<br> AZ1117IH-3.3TRG1 <br>$0.24/each<br>[link to product](https://www.digikey.com/en/products/detail/diodes-incorporated/AZ1117IH-3-3TRG1/5699672)                 | \* Inexpensive[^1]<br>\* Compatible with ESP<br>\* 3.3 V 1 A            | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
 | ![Option 2](Option2.webp)<br>\* Option 2. <br>\* AS78L05RTR-E1 <br>\* $0.13/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/diodes-incorporated/AS78L05RTR-E1/4470943) | \* 1 output <br>\* Stable over operating temperature <br> \* very cheap  | * 5V 100mA <br>\* 24 week Manufacture lead time    |
