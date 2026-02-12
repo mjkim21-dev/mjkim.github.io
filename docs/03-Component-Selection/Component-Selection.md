@@ -1,5 +1,5 @@
 ---
-title: Module's Selected Major Components
+title: Subsystem A3 Selected Major Components
 ---
 
 ## Bluetooth Module's Selected Major Components
