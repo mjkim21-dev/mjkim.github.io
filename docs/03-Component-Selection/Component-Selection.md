@@ -4,11 +4,11 @@ title: Module's Selected Major Components
 
 ## Bluetooth Module's Selected Major Components
 
-The following sections are the selected major components necessary for the A3 Bluetooth Subsystem. 
+The following sections are the selected major components necessary for the A3 Bluetooth Subsystem.  
 
 ### Power Management
 
-(**remove this note/placeholder**: this is where your 3.3 volt switching regulator, any other needed power regulator, and power source {if applicable} **THAT WERE SELECTED**)
+Subsystem A3 will utilized a shared 9V input power and use a Voltage regualtor from 9V to 3.3V which will be the voltage needed to operate the ESP. The regualtor will be ___ and will ensure the bluetooth connection works.
 
 For more details, review the ["Appendix - Component Selection Process - Power Management"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#power-management) selection.
 
@@ -30,11 +30,11 @@ For more details, review the ["Appendix - Component Selection Process - Power Ma
 
 ## Microcontroller Selection
 ### My Contribution to the Team
-For this subsystem, I am responsible for creating a bluetooth subssystem, my goal is to send and receive information to a host bluetooth.
+For this subsystem, I am responsible for creating a bluetooth subssystem, my goal is to send and receive information. Subsystem A3 is in charge of Bluetooth communication. We plan to use Bluetooth Low Energy (BLE) in this and A3 will be the clientin the controller side of the project. 
 
 
 ### ESP32-S3-WROOM-1-N4 pinout
- **Highlight the pins I plan to use or will be associated with my part**
+
   ![PinOut](ESP-pin.png)
 
 
