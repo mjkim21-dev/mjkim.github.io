@@ -33,9 +33,10 @@ The following sections are the selected major components necessary for the A3 Bl
 
 
 ## Microcontroller Selection
-### My Contribution to the Team
-For this subsystem, I am responsible for creating a bluetooth subssystem, my goal is to send and receive information. Subsystem A3 is in charge of Bluetooth communication. We plan to use Bluetooth Low Energy (BLE) in this and A3 will be the clientin the controller side of the project. 
-
+*Table 3: Microcontroller selection*
+| **Solution**                      | **Facts**                   | **Contribution**                        |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| ![replace this](.png)<br>Option 1.<br> ESP32-S3-WROOM-1-N4 <br>$5.06/each<br>[product link](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16162639)                 | \* Inexpensive[^1]<br>\* already have \* Meets surface mount constraint of subsystem A3           | \* For this subsystem, I am responsible for creating a bluetooth subssystem, my goal is to send and receive information. Subsystem A3 is in charge of Bluetooth communication. We plan to use Bluetooth Low Energy (BLE) in this, and A3 will be the clientin the controller side of the project.  |
 
 ### ESP32-S3-WROOM-1-N4 pinout
 
