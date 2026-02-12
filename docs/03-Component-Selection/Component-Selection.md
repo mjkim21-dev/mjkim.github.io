@@ -8,7 +8,6 @@ The following sections are the selected major components necessary for the A3 Bl
 
 ## Major Component Selection
 
-
  ### Power Management
  
 *Table 1: Regulator selection*
@@ -18,9 +17,9 @@ The following sections are the selected major components necessary for the A3 Bl
 | ![Option 2](Option2.webp)<br>\* Option 2. <br>\* AS78L05RTR-E1 <br>\* $0.13/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/diodes-incorporated/AS78L05RTR-E1/4470943) | \* 1 output <br>\* Stable over operating temperature <br> \* very cheap  | * 5V 100mA <br>\* 24 week Manufacture lead time    |
 | ![Option 3](Option3.webp)<br>\* Option 3. <br>\* TCR2EF33,LM(CT <br>\* $0.12/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/TCR2EF33-LM-CT/4503183) | \* 6,657 in stock <br>\* Stable over operating temperature <br> \* 3.3 V 200mA | * 12 week manufacture lead time    |
 
-**Choice:** Option #2: because...
+**Choice:** Option #1: AZ1117IH-3.3TRG1
 
-**Rationale:** write stuff on why...
+**Rationale:** Option 1 is the candidate because of its stats; it's rated for 3.3V 1A, although the current is a little high, the voltage is exactly at 3.3V, which is imperative for Subsystem A3 to work. I also believe that because it's only $0.24, this is still perfectly fine within the $60 budget.
 
 ### Debug Button
 
