@@ -4,7 +4,7 @@ title: Module's Selected Major Components
 
 ## Bluetooth Module's Selected Major Components
 
-The following sections are the selected major components necessary for the A3 Bluetooth Subsystem.  
+The following sections are the selected major components necessary for the A3 Bluetooth Subsystem. This subsytem primarily focuses on the Client stack in the main controller of the BLE system.
 
 ### Power Management
 
