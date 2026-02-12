@@ -18,7 +18,7 @@ The following sections are the selected major components necessary for the A3 Bl
 | ![Option 2](Option2.webp)<br>\* Option 2. <br>\* AS78L05RTR-E1 <br>\* $0.13/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/diodes-incorporated/AS78L05RTR-E1/4470943) | \* 1 output <br>\* Stable over operating temperature <br> \* very cheap  | * 5V 100mA <br>\* 24 week Manufacture lead time    |
 | ![Option 3](Option3.webp)<br>\* Option 3. <br>\* TCR2EF33,LM(CT <br>\* $0.12/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/TCR2EF33-LM-CT/4503183) | \* 6,657 in stock <br>\* Stable over operating temperature <br> \* 3.3 V 200mA | * 12 week manufacture lead time    |
 
-**Choice:** Option 2#, because...
+**Choice:** Option #2: because...
 
 **Rationale:** write stuff on why...
 
@@ -27,13 +27,13 @@ The following sections are the selected major components necessary for the A3 Bl
 *Table 2: Component selection*
 | **Solution**                                                                                                                                                                                    | **Pros**                                                                                                                                    | **Cons**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ![Option 1](.webp)<br>Option 1.<br> CSMS15CIC06 <br>$7.17/each<br>[link to product](https://www.digikey.com/en/products/detail/visual-communications-company-vcc/CSMS15CIC06/8259508)                 | \* Inexpensive[^1]<br>\* Compatible with PSoC<br>\* Meets surface mount constraint of project                                               | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
-| ![Option 2](.webp)<br>\* Option 2. <br>\* ESB-33535A <br>\* $1.94/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/panasonic-electronic-components/ESB-33535A/3873298) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed         |
-| ![Option 3](.webp)<br>\* Option 3. <br>\* TL2233OA <br>\* $0.46/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/e-switch/TL2233OA/15220943) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed         |
+| ![Option 1](Button1.jpg)<br>Option 1.<br> CSMS15CIC06 <br>$7.17/each<br>[link to product](https://www.digikey.com/en/products/detail/visual-communications-company-vcc/CSMS15CIC06/8259508)                 | \* Most Visually pleasing for controller <br>\* Compatible with ESP <br>\* Meets surface mount constraint of project        | \* Real Expensive <br>\* Needs special PCB layout. |
+| ![Option 2](Button2.webp)<br>\* Option 2. <br>\* ESB-33535A <br>\* $1.94/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/panasonic-electronic-components/ESB-33535A/3873298) | \* Cheaper than Option 1 <br>\* Over 2,000 in stock <br> \* SWITCH PUSH DPDT 0.2A 14V | * 18 week manufacture lead time <br>\* may require extra circuitry       |
+| ![Option 3](Button3.webp)<br>\* Option 3. <br>\* TL2233OA <br>\* $0.46/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/e-switch/TL2233OA/15220943) | \* Cheapest of all <br>\* SWITCH PB DPDT 0.1A 30V| \* 6-pins <br>\* 1,718 in stock         |
 
-**Choice:** Option #: 
+**Choice:** Option 1: The CSMS15CIC0, is a surface mounted display button.
 
-**Rationale:** something here...
+**Rationale:** The reason this button was chosen is because of its characteristics. With a display button, you do not need to worry about the life cycle. The button has an IC, which means no moving parts, which is very good for reliability, and also, this button can very easily be used for the controller on which Subsystem A3 is placed.
 
 
 ## Microcontroller Selection
