@@ -622,15 +622,6 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#my-contribution-to-the-team" class="md-nav__link">
-    <span class="md-ellipsis">
-      My Contribution to the Team
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#esp32-s3-wroom-1-n4-pinout" class="md-nav__link">
     <span class="md-ellipsis">
       ESP32-S3-WROOM-1-N4 pinout
@@ -879,15 +870,6 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#my-contribution-to-the-team" class="md-nav__link">
-    <span class="md-ellipsis">
-      My Contribution to the Team
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#esp32-s3-wroom-1-n4-pinout" class="md-nav__link">
     <span class="md-ellipsis">
       ESP32-S3-WROOM-1-N4 pinout
@@ -963,8 +945,10 @@
 <p><strong>Choice:</strong> Option 2: CTX936TR-ND surface mount oscillator</p>
 <p><strong>Rationale:</strong> A clock oscillator is easier to work with because it requires no external circuitry to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website, if we order this week, it will arrive within 3 weeks.</p>
 <h2 id="microcontroller-selection">Microcontroller Selection</h2>
-<h3 id="my-contribution-to-the-team">My Contribution to the Team</h3>
-<p>For this subsystem, I am responsible for creating a bluetooth subssystem, my goal is to send and receive information. Subsystem A3 is in charge of Bluetooth communication. We plan to use Bluetooth Low Energy (BLE) in this and A3 will be the clientin the controller side of the project. </p>
+<p><em>Table 3: Microcontroller selection</em>
+| <strong>Solution</strong>                      | <strong>Facts</strong>                   | <strong>Contribution</strong>                        |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href=".png" data-desc-position="bottom"><img alt="replace this" src=".png"></a><br>Option 1.<br> ESP32-S3-WROOM-1-N4 <br>$5.06/each<br><a href="https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16162639">product link</a>                 | * Inexpensive[^1]<br>* already have * Meets surface mount constraint of subsystem A3           | * For this subsystem, I am responsible for creating a bluetooth subssystem, my goal is to send and receive information. Subsystem A3 is in charge of Bluetooth communication. We plan to use Bluetooth Low Energy (BLE) in this, and A3 will be the clientin the controller side of the project.  |</p>
 <h3 id="esp32-s3-wroom-1-n4-pinout">ESP32-S3-WROOM-1-N4 pinout</h3>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../ESP-pin.png" data-desc-position="bottom"><img alt="PinOut" src="../ESP-pin.png"></a></p>
 <h3 id="rationale-for-the-esp">Rationale for the ESP</h3>
