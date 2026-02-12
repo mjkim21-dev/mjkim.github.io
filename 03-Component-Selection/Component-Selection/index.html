@@ -600,21 +600,6 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Bluetooth Module's Selected Major Components">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#power-management" class="md-nav__link">
-    <span class="md-ellipsis">
-      Power Management
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
         <li class="md-nav__item">
@@ -872,21 +857,6 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Bluetooth Module's Selected Major Components">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#power-management" class="md-nav__link">
-    <span class="md-ellipsis">
-      Power Management
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
         <li class="md-nav__item">
@@ -976,10 +946,14 @@
 
 <h2 id="bluetooth-modules-selected-major-components">Bluetooth Module's Selected Major Components</h2>
 <p>The following sections are the selected major components necessary for the A3 Bluetooth Subsystem. This subsytem primarily focuses on the Client stack in the main controller of the BLE system.</p>
-<h3 id="power-management">Power Management</h3>
-<p>Subsystem A3 will utilized a shared 9V input power and use a Voltage regualtor from 9V to 3.3V which will be the voltage needed to operate the ESP. The regualtor will be ___ and will ensure the bluetooth connection works.</p>
-<p>For more details, review the <a href="https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#power-management">"Appendix - Component Selection Process - Power Management"</a> selection.</p>
 <h2 id="major-component-selection">Major Component Selection</h2>
+<p><strong>Power Management</strong>
+<em>Table 1: Regulator selection</em>
+| <strong>Solution</strong>                                                                                                                                                                                    | <strong>Pros</strong>                                                                                                                                    | <strong>Cons</strong>                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href=".png" data-desc-position="bottom"><img alt="replace this" src=".png"></a><br>Option 1.<br> AZ1117IH-3.3TRG1 <br>$0.24/each<br><a href="https://www.digikey.com/en/products/detail/diodes-incorporated/AZ1117IH-3-3TRG1/5699672">link to product</a>                 | * Inexpensive[^1]<br>* Compatible with ESP<br>* Meets surface mount constraint of project                                               | * Requires external components and support circuitry for interface<br>* Needs special PCB layout. |
+| <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href=".png" data-desc-position="bottom"><img alt="replace this" src=".png"></a><br>* Option 2. <br>* AS78L05RTR-E1 <br>* $0.13/each <br>* <a href="https://www.digikey.com/en/products/detail/diodes-incorporated/AS78L05RTR-E1/4470943">Link to product</a> | * Outputs a square wave <br>* Stable over operating temperature <br> * Direct interface with PSoC (no external circuitry required) range | * More expensive <br>* Slow shipping speed    |
+| <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href=".png" data-desc-position="bottom"><img alt="replace this" src=".png"></a><br>* Option 3. <br>* TCR2EF33,LM(CT <br>* $0.12/each <br>* <a href="https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/TCR2EF33-LM-CT/4503183">Link to product</a> | * Outputs a square wave <br>* Stable over operating temperature <br> * Direct interface with PSoC (no external circuitry required) range | * More expensive <br>* Slow shipping speed    |</p>
 <p><strong>External Clock Module</strong></p>
 <p><em>Table 1: Component selection</em>
 | <strong>Solution</strong>                                                                                                                                                                                    | <strong>Pros</strong>                                                                                                                                    | <strong>Cons</strong>                                                                                            |
