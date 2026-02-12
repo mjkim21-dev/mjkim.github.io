@@ -609,6 +609,21 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Major Component Selection">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#debug-button" class="md-nav__link">
+    <span class="md-ellipsis">
+      Debug Button
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -857,6 +872,21 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Major Component Selection">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#debug-button" class="md-nav__link">
+    <span class="md-ellipsis">
+      Debug Button
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -927,23 +957,26 @@
   <h1>Module's Selected Major Components</h1>
 
 <h2 id="bluetooth-modules-selected-major-components">Bluetooth Module's Selected Major Components</h2>
-<p>The following sections are the selected major components necessary for the A3 Bluetooth Subsystem. This subsytem primarily focuses on the Client stack in the main controller of the BLE system.</p>
+<p>The following sections are the selected major components necessary for the A3 Bluetooth Subsystem. This subsystem primarily focuses on the Client stack in the main controller of the BLE system.</p>
 <h2 id="major-component-selection">Major Component Selection</h2>
-<p><strong>Power Management</strong>
-<em>Table 1: Regulator selection</em>
+<p>### Power Management</p>
+<p><em>Table 1: Regulator selection</em>
 | <strong>Solution</strong>                                                                                                                                                                                    | <strong>Pros</strong>                                                                                                                                    | <strong>Cons</strong>                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Option1.webp" data-desc-position="bottom"><img alt="replace this" src="../Option1.webp"></a><br>Option 1.<br> AZ1117IH-3.3TRG1 <br>$0.24/each<br><a href="https://www.digikey.com/en/products/detail/diodes-incorporated/AZ1117IH-3-3TRG1/5699672">link to product</a>                 | * Inexpensive[^1]<br>* Compatible with ESP<br>* 3.3 V 1 A            | * Requires external components and support circuitry for interface<br>* Needs special PCB layout. |
-| <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Option2.webp" data-desc-position="bottom"><img alt="replace this" src="../Option2.webp"></a><br>* Option 2. <br>* AS78L05RTR-E1 <br>* $0.13/each <br>* <a href="https://www.digikey.com/en/products/detail/diodes-incorporated/AS78L05RTR-E1/4470943">Link to product</a> | * 1 output <br>* Stable over operating temperature <br> * very cheap  | * 5V 100mA <br>* 24 week Manufacture lead time    |
-| <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Option3.webp" data-desc-position="bottom"><img alt="replace this" src="../Option3.webp"></a><br>* Option 3. <br>* TCR2EF33,LM(CT <br>* $0.12/each <br>* <a href="https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/TCR2EF33-LM-CT/4503183">Link to product</a> | * 6,657 in stock <br>* Stable over operating temperature <br> * 3.3 V 200mA | * 12 week manufacture lead time    |</p>
-<p><strong>External Clock Module</strong></p>
-<p><em>Table 1: Component selection</em>
+| <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Option1.webp" data-desc-position="bottom"><img alt="Option 1" src="../Option1.webp"></a><br>Option 1.<br> AZ1117IH-3.3TRG1 <br>$0.24/each<br><a href="https://www.digikey.com/en/products/detail/diodes-incorporated/AZ1117IH-3-3TRG1/5699672">link to product</a>                 | * Inexpensive[^1]<br>* Compatible with ESP<br>* 3.3 V 1 A            | * Requires external components and support circuitry for interface<br>* Needs special PCB layout. |
+| <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Option2.webp" data-desc-position="bottom"><img alt="Option 2" src="../Option2.webp"></a><br>* Option 2. <br>* AS78L05RTR-E1 <br>* $0.13/each <br>* <a href="https://www.digikey.com/en/products/detail/diodes-incorporated/AS78L05RTR-E1/4470943">Link to product</a> | * 1 output <br>* Stable over operating temperature <br> * very cheap  | * 5V 100mA <br>* 24 week Manufacture lead time    |
+| <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Option3.webp" data-desc-position="bottom"><img alt="Option 3" src="../Option3.webp"></a><br>* Option 3. <br>* TCR2EF33,LM(CT <br>* $0.12/each <br>* <a href="https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/TCR2EF33-LM-CT/4503183">Link to product</a> | * 6,657 in stock <br>* Stable over operating temperature <br> * 3.3 V 200mA | * 12 week manufacture lead time    |</p>
+<p><strong>Choice:</strong> Option 2#, because...</p>
+<p><strong>Rationale:</strong> write stuff on why...</p>
+<h3 id="debug-button">Debug Button</h3>
+<p><em>Table 2: Component selection</em>
 | <strong>Solution</strong>                                                                                                                                                                                    | <strong>Pros</strong>                                                                                                                                    | <strong>Cons</strong>                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href=".png" data-desc-position="bottom"><img alt="replace this" src=".png"></a><br>Option 1.<br> XC1259TR-ND surface mount crystal<br>$1/each<br><a href="http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366">link to product</a>                 | * Inexpensive[^1]<br>* Compatible with PSoC<br>* Meets surface mount constraint of project                                               | * Requires external components and support circuitry for interface<br>* Needs special PCB layout. |
-| <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href=".png" data-desc-position="bottom"><img alt="replace this" src=".png"></a><br>* Option 2. <br>* CTX936TR-ND surface mount oscillator <br>* $1/each <br>* <a href="http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940">Link to product</a> | * Outputs a square wave <br>* Stable over operating temperature <br> * Direct interface with PSoC (no external circuitry required) range | * More expensive <br>* Slow shipping speed                                                |</p>
-<p><strong>Choice:</strong> Option 2: CTX936TR-ND surface mount oscillator</p>
-<p><strong>Rationale:</strong> A clock oscillator is easier to work with because it requires no external circuitry to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website, if we order this week, it will arrive within 3 weeks.</p>
+| <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href=".webp" data-desc-position="bottom"><img alt="Option 1" src=".webp"></a><br>Option 1.<br> CSMS15CIC06 <br>$7.17/each<br><a href="https://www.digikey.com/en/products/detail/visual-communications-company-vcc/CSMS15CIC06/8259508">link to product</a>                 | * Inexpensive[^1]<br>* Compatible with PSoC<br>* Meets surface mount constraint of project                                               | * Requires external components and support circuitry for interface<br>* Needs special PCB layout. |
+| <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href=".webp" data-desc-position="bottom"><img alt="Option 2" src=".webp"></a><br>* Option 2. <br>* ESB-33535A <br>* $1.94/each <br>* <a href="https://www.digikey.com/en/products/detail/panasonic-electronic-components/ESB-33535A/3873298">Link to product</a> | * Outputs a square wave <br>* Stable over operating temperature <br> * Direct interface with PSoC (no external circuitry required) range | * More expensive <br>* Slow shipping speed         |
+| <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href=".webp" data-desc-position="bottom"><img alt="Option 3" src=".webp"></a><br>* Option 3. <br>* TL2233OA <br>* $0.46/each <br>* <a href="https://www.digikey.com/en/products/detail/e-switch/TL2233OA/15220943">Link to product</a> | * Outputs a square wave <br>* Stable over operating temperature <br> * Direct interface with PSoC (no external circuitry required) range | * More expensive <br>* Slow shipping speed         |</p>
+<p><strong>Choice:</strong> Option #: </p>
+<p><strong>Rationale:</strong> something here...</p>
 <h2 id="microcontroller-selection">Microcontroller Selection</h2>
 <p><em>Table 3: Microcontroller selection</em>
 | <strong>Solution</strong>                      | <strong>Facts</strong>                   | <strong>Contribution</strong>                        |
