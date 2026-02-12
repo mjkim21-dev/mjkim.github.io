@@ -978,12 +978,33 @@
 <p>The following sections are the selected major components necessary for the A3 Bluetooth Subsystem. This subsystem primarily focuses on the Client stack in the main controller of the BLE system.</p>
 <h2 id="major-component-selection">Major Component Selection</h2>
 <h3 id="power-management">Power Management</h3>
-<p><em>Table 1: Regulator selection</em>
-| <strong>Solution</strong>                          | <strong>Pros</strong>                    | <strong>Cons</strong>                                    |
-| ------------------------------------- | --------------------------- | -------------------------------------------- |
-| <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Option1.webp" data-desc-position="bottom"><img alt="Option 1" src="../Option1.webp"></a><br>Option 1.<br> AZ1117IH-3.3TRG1 <br>$0.24/each<br><a href="https://www.digikey.com/en/products/detail/diodes-incorporated/AZ1117IH-3-3TRG1/5699672">link to product</a>                 | * Inexpensive[^1]<br>* Compatible with ESP<br>* 3.3 V 1 A            | * Requires external components and support circuitry for interface<br>* Needs special PCB layout. |
-| <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Option2.webp" data-desc-position="bottom"><img alt="Option 2" src="../Option2.webp"></a><br>* Option 2. <br>* AS78L05RTR-E1 <br>* $0.13/each <br>* <a href="https://www.digikey.com/en/products/detail/diodes-incorporated/AS78L05RTR-E1/4470943">Link to product</a> | * 1 output <br>* Stable over operating temperature <br> * very cheap  | * 5V 100mA <br>* 24 week Manufacture lead time    |
-| <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Option3.webp" data-desc-position="bottom"><img alt="Option 3" src="../Option3.webp"></a><br>* Option 3. <br>* TCR2EF33,LM(CT <br>* $0.12/each <br>* <a href="https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/TCR2EF33-LM-CT/4503183">Link to product</a> | * 6,657 in stock <br>* Stable over operating temperature <br> * 3.3 V 200mA | * 12 week manufacture lead time    |</p>
+<p><em>Table 1: Regulator selection</em></p>
+<table>
+<thead>
+<tr>
+<th><strong>Solution</strong></th>
+<th><strong>Pros</strong></th>
+<th><strong>Cons</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Option1.webp" data-desc-position="bottom"><img alt="Option 1" src="../Option1.webp"></a><br>Option 1.<br> AZ1117IH-3.3TRG1 <br>$0.24/each<br><a href="https://www.digikey.com/en/products/detail/diodes-incorporated/AZ1117IH-3-3TRG1/5699672">link to product</a></td>
+<td>* Inexpensive[^1]<br>* Compatible with ESP<br>* 3.3 V 1 A</td>
+<td>* Requires external components and support circuitry for interface<br>* Needs special PCB layout.</td>
+</tr>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Option2.webp" data-desc-position="bottom"><img alt="Option 2" src="../Option2.webp"></a><br>* Option 2. <br>* AS78L05RTR-E1 <br>* $0.13/each <br>* <a href="https://www.digikey.com/en/products/detail/diodes-incorporated/AS78L05RTR-E1/4470943">Link to product</a></td>
+<td>* 1 output <br>* Stable over operating temperature <br> * very cheap</td>
+<td>* 5V 100mA <br>* 24 week Manufacture lead time</td>
+</tr>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Option3.webp" data-desc-position="bottom"><img alt="Option 3" src="../Option3.webp"></a><br>* Option 3. <br>* TCR2EF33,LM(CT <br>* $0.12/each <br>* <a href="https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/TCR2EF33-LM-CT/4503183">Link to product</a></td>
+<td>* 6,657 in stock <br>* Stable over operating temperature <br> * 3.3 V 200mA</td>
+<td>* 12 week manufacture lead time</td>
+</tr>
+</tbody>
+</table>
 <p><strong>Choice:</strong> Option #1: AZ1117IH-3.3TRG1</p>
 <p><strong>Rationale:</strong> Option 1 is the candidate because of its stats; it's rated for 3.3V 1A, although the current is a little high, the voltage is exactly at 3.3V, which is imperative for Subsystem A3 to work. I also believe that because it's only $0.24, this is still perfectly fine within the $60 budget.</p>
 <h3 id="debug-button">Debug Button</h3>
