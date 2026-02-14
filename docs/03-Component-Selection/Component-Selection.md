@@ -34,7 +34,7 @@ The following sections are the selected major components necessary for the A2 Bl
 
 **Choice:** Option 1: The CSMS15CIC0, is a surface mounted display button.
 
-**Rationale:** The reason this button was chosen is because of its characteristics. With a display button, you do not need to worry about the life cycle. The button has an IC, which means no moving parts, which is very good for reliability, and also, this button can very easily be used for the controller on which Subsystem A2 is placed.
+**Rationale:** The reason this button was chosen is because of its characteristics. With a display button, you do not need to worry about the life cycle. The button has an IC, which means no moving parts, which is very good for reliability. Also, this button can very easily be used with the controller on which Subsystem A2 is placed.
 
 
 ## Microcontroller Selection
@@ -43,7 +43,7 @@ The following sections are the selected major components necessary for the A2 Bl
 
 | **Solution**                      |        **Facts**                   |                            **Contribution**                        |
 | ---------------------------------- | ----------------------------------| -------------------------------------------------------------------|
-| ![replace this](Microcon.webp)<br>Option 1.<br> ESP32-S3-WROOM-1-N4 <br>$5.06/each<br>[product link](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16162639)       | \* Bluetooth, WiFi 802.11b/g/n, Bluetooth v5.0 Transceiver Module 2.4GHz PCB Trace Surface Mount <br>\* Meets surface mount constraint of subsystem A3     | \* For this subsystem, I am responsible for creating a bluetooth subssystem, my goal is to send and receive information. Subsystem A3 is in charge of Bluetooth communication. We plan to use Bluetooth Low Energy (BLE) in this, and A3 will be the clientin the controller side of the project.  |
+| ![replace this](Microcon.webp)<br>Option 1.<br> ESP32-S3-WROOM-1-N4 <br>$5.06/each<br>[product link](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16162639)       | \* Bluetooth, WiFi 802.11b/g/n, Bluetooth v5.0 Transceiver Module 2.4GHz PCB Trace Surface Mount <br>\* Meets surface mount constraint of subsystem A2     | \* For this subsystem, I am responsible for creating a bluetooth subssystem, my goal is to send and receive information. Subsystem A2 is in charge of Bluetooth communication. We plan to use Bluetooth Low Energy (BLE) in this, and A3 will be the clientin the controller side of the project.  |
 
 ### ESP32-S3-WROOM-1-N4 pinout
 
