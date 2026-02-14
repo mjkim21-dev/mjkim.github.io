@@ -2,8 +2,8 @@
 title: Module's Requirements
 ---
 
-## Subsystem 3A: Bluetooth Module
-The following table includes requirements for a Bluetooth subsystem. You can see the team project requirements [here](https://egr314-s-2026-201.github.io/03-Project-Requirements/Project-requirements/).
+## Subsystem A2: Bluetooth Module
+The following table includes requirements for the Bluetooth A2 subsystem. You can see the team project requirements [here](https://egr314-s-2026-201.github.io/03-Project-Requirements/Project-requirements/).
 
 | **Requirement Description** | **Measure of<br> Threshold** | **Target<br>Measure** |**Stretch<br>Requirement<br>(Y-N)**|
 |-----------------------------| ----------------- | ----------------- | :-----: |
