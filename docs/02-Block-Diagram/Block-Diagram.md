@@ -12,4 +12,4 @@ To see the team's block diagram and how my block diagram will fit, click [here](
 
 ## Block Diagram 
 
-![Indivial Block diagram ](blockMK1.png)
+![Indivial Block diagram ](blockMK1.drawio.png)
