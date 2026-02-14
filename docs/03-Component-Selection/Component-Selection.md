@@ -1,10 +1,10 @@
 ---
-title: Subsystem A3 Selected Major Components
+title: Subsystem A2 Selected Major Components
 ---
 
 ## Bluetooth Module's Selected Major Components
 
-The following sections are the selected major components necessary for the A3 Bluetooth Subsystem. This subsystem primarily focuses on the Client stack in the main controller of the BLE system.
+The following sections are the selected major components necessary for the A2 Bluetooth Subsystem. This subsystem primarily focuses on the Client stack in the main controller of the BLE system.
 
 ## Major Component Selection
 
@@ -20,7 +20,7 @@ The following sections are the selected major components necessary for the A3 Bl
 
 **Choice:** Option #1: AZ1117IH-3.3TRG1
 
-**Rationale:** Option 1 is the candidate because of its stats; it's rated for 3.3V 1A, although the current is a little high, the voltage is exactly at 3.3V, which is imperative for Subsystem A3 to work. I also believe that because it's only $0.24, this is still perfectly fine within the $60 budget.
+**Rationale:** Option 1 is the candidate because of its stats; it's rated for 3.3V 1A, although the current is a little high, the voltage is exactly at 3.3V, which is imperative for Subsystem A2 to work. I also believe that because it's only $0.24, this is still perfectly fine within the $60 budget.
 
 ### Debug Button
 
@@ -34,7 +34,7 @@ The following sections are the selected major components necessary for the A3 Bl
 
 **Choice:** Option 1: The CSMS15CIC0, is a surface mounted display button.
 
-**Rationale:** The reason this button was chosen is because of its characteristics. With a display button, you do not need to worry about the life cycle. The button has an IC, which means no moving parts, which is very good for reliability, and also, this button can very easily be used for the controller on which Subsystem A3 is placed.
+**Rationale:** The reason this button was chosen is because of its characteristics. With a display button, you do not need to worry about the life cycle. The button has an IC, which means no moving parts, which is very good for reliability, and also, this button can very easily be used for the controller on which Subsystem A2 is placed.
 
 
 ## Microcontroller Selection
