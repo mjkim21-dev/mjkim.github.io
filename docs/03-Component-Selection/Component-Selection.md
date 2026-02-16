@@ -20,7 +20,7 @@ The following sections are the selected major components necessary for the A2 Bl
 
 **Choice:** Option #1: AZ1117IH-3.3TRG1
 
-**Rationale:** Option 1 is the candidate because of its stats; it's rated for 3.3V 1A, although the current is a little high, the voltage is exactly at 3.3V, which is imperative for Subsystem A2 to work. Because this regulator costs &#36;0.24, it fits within the &#36;60 budget.
+**Rationale:** Option 1 is the candidate because of its stats; it's rated for 3.3V 1A, although the current is a little high, the voltage is exactly at 3.3V, which is imperative for Subsystem A2 to work. Because this regulator costs $0.24 and is way under budget, I believe that AZ1117IH-3.3TRG1 can be the solution for my 3.3V needs.
 
 ### Debug Button
 
