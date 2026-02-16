@@ -16,7 +16,7 @@ The following sections are the selected major components necessary for the A2 Bl
 | ------------------------------------- | ------------------------------- | ------------------------------------------------------------------ |
 | ![Option 1](Option1.webp)<br>Option 1.<br> AZ1117IH-3.3TRG1 <br>$0.24/each<br>[link to product](https://www.digikey.com/en/products/detail/diodes-incorporated/AZ1117IH-3-3TRG1/5699672)    | \* Inexpensive[^1]<br>\* Compatible with ESP<br>\* 3.3 V 1 A            | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
 | ![Option 2](Option2.webp)<br>\* Option 2. <br>\* AS78L05RTR-E1 <br>\* $0.13/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/diodes-incorporated/AS78L05RTR-E1/4470943) | \* 1 output <br>\* Stable over operating temperature <br> \* very cheap  | * 5V 100mA <br>\* 24 week Manufacture lead time    |
-| ![Option 3](Option3.webp)<br>\* Option 3. <br>\* TCR2EF33,LM(CT <br>\* $0.12/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/TCR2EF33-LM-CT/4503183) | \* 6,657 in stock <br>\* Stable over operating temperature <br> \* 3.3 V 200mA | * 12 week manufacture lead time    |
+| ![Option 3](Option3.webp)<br>\* Option 3. <br>\* TCR2EF33,LM(CT <br>\* $0.12/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/TCR2EF33-LM-CT/4503183) | \* 6,657 in stock <br>\* Stable over operating temperature <br> \* 3.3 V 200mA | * 12 week manufacture lead time  <br> \* Thermal issues if using high voltage.  |
 
 **Choice:** Option #1: AZ1117IH-3.3TRG1
 
