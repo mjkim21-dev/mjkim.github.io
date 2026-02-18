@@ -4,13 +4,13 @@ title: Module Schematic
 
 ## Overview
 
-This schematic is design to support .... (highlight functionally, power, and controller).
+This schematic is designed to support Subsystem A2. In the shcematic you will see how I designed a circuit to hold 5 buttons, a surface-mounted ESP32, and shared connections via. connector pins, and a switching power regulator. As well as the design of supporting circuitry. To understand the basis of this schematic and why things are the way they are, you can refer to the team block diagram [*here*](https://egr314-s-2026-304.github.io/04-Team-Diagram/).
 
 
-![schematic](Screenshot.png){style width:"350" height:"300;"}
-**Figure ##:** Showing a example schematic.
+![schematic](Screen.png){style width:"350" height:"300;"}
+**Figure ##:** Showing schematic of Subsystem A2.
 
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](ExampleSchematic.pdf), and the Zip folder of the project [*here*](dummyZip.zip).
+The schematic as a PDF download is available [*here*](Example.pdf), and the Zip folder of the project [*here*](dummyZip.zip).
