@@ -18,9 +18,9 @@ The following sections are the selected major components necessary for the A2 Bl
 | ![Option 2](Option2.webp)<br>\* Option 2. <br>\* AS78L05RTR-E1 <br>\* $0.13/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/diodes-incorporated/AS78L05RTR-E1/4470943) | \* 1 output <br>\* Stable over operating temperature <br> \* very cheap  | * 5V 100mA <br>\* 24 week Manufacture lead time    |
 | ![Option 3](Option3.webp)<br>\* Option 3. <br>\* TCR2EF33,LM(CT <br>\* $0.12/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/TCR2EF33-LM-CT/4503183) | \* 6,657 in stock <br>\* Stable over operating temperature <br> \* 3.3 V 200mA | * 12 week manufacture lead time  <br> \* Thermal issues if using high voltage.  |
 
-**Choice:** Option #1: AZ1117IH-3.3TRG1
+**Choice:** Option #1: LM2575D2T-3.3-ND1
 
-**Rationale:** Option 1 is the candidate because of its stats; it's rated for 3.3V 1A, although the current is a little high, the voltage is exactly at 3.3V, which is imperative for Subsystem A2 to work. Because this regulator costs $0.24 and is way under budget, I believe that AZ1117IH-3.3TRG1 can be the solution for my 3.3V needs.
+**Rationale:** Option 1 is the candidate because of its stats; it's rated for 3.3V 1A, although the current is a little high, the voltage is exactly at 3.3V, which is imperative for Subsystem A2 to work. Because this regulator costs $1.08 and is way under budget, I believe that LM2575D2T-3.3-ND1 can be the solution for my 3.3V needs. Also, we already have these in stock in the classroom.
 
 ### Debug Button
 
