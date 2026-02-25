@@ -16,12 +16,12 @@ for<br>
 
 ## Introduction
 
-* **This needs to be updated so that a reader gets an idea of the purpose of this datasheet.**
+This datasheet has all the information regarding subsystem A2, which I am responsible for. Navigating through the website will allow you to understand the processes I went through to design and build Subsystem A2, which is mostly in charge of the Bluetooth Low Energy (BLE) client. 
 
 ### Project Summary
 
-* This needs to be updated to reflect <ins>your version</ins> of the team project, so when shared not via the team's report, the reader gets an idea of the direction of the project and how your work will contribute to the overall success.
-* Add context that ties into the link to your [team report.](https://egr314-s-2026-201.github.io/)
+My part in Team 201 will be crucial to the controller. I am solely responsible for the Bluetooth connection in the controller piece. My role is to receive and send data to and from the robot via Bluetooth. This subsystem, A2, will consist only of buttons and will serve a support role to Subsystem A1 to ensure the controller displays as much information as possible and has a working user interface. If you would like to get a better idea of just how this subsystem fits, check the [team report.](https://egr314-s-2026-201.github.io/)
+
 
 ### My Contribution
 
