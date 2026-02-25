@@ -25,9 +25,16 @@ My part in Team 201 will be crucial to the controller. I am solely responsible f
 
 ### My Contribution
 
-* This needs to be updated to reflect a team introduction
-* Content should also help an unfamiliar reader navigate to areas of interest. Information like:
+For this project, I am 1 out 10 people on Team 201. I am responsible for the BLE Client on the controller, so my responsibility is to design and build a circuit and PCB to run BLE out of the ESP32. As you navigate through the website, you will see all the way from concept generation to final code and pictures of the completed design.
 
-To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://mjkim21-dev.github.io/mjkim.github.io/04-BOM/BOM/) section of the datasheet.
+Below you will find hyperlinks to the sections. **(Update please)**
+1. 
+2.
+3.
+4.
+5. ["BOM"](https://mjkim21-dev.github.io/mjkim.github.io/04-BOM/BOM/) 
 
->Continue for all the remaining/missing sections.
+
+ 
+
+
