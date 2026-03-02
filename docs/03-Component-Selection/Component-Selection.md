@@ -15,7 +15,7 @@ The following sections are the selected major components necessary for the A2 Bl
 | **Solution**                          | **Pros**                         |                       **Cons**                                    |
 | ------------------------------------- | ------------------------------- | ------------------------------------------------------------------ |
 | ![Option 1](Option10.webp)<br>Option 1.<br> LM2575D2T-3.3-ND1 <br>$1.08/each<br>[link to product](https://www.digikey.com/en/products/detail/onsemi/LM2575D2T-3-3R4/1476687)    | \* Inexpensive[^1]<br>\* Compatible with ESP <br>\* 3.3 V 1 A <br>\* Already have in class.            | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
-| ![Option 2](Button20.webp)<br>\* Option 2. <br>\* TL2575HV-33IKTTR <br>\* $4.46/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/texas-instruments/TL2575HV-33IKTTR/1629212) | \* Buck Switching regulator <br>\* Stable over operating temperature <br> \* Texas Instruments  | * 400 left in stock <br>\* extremely expensive compared to option 1 and 3   |
+| ![Option 2](Option20.webp)<br>\* Option 2. <br>\* TL2575HV-33IKTTR <br>\* $4.46/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/texas-instruments/TL2575HV-33IKTTR/1629212) | \* Buck Switching regulator <br>\* Stable over operating temperature <br> \* Texas Instruments  | * 400 left in stock <br>\* extremely expensive compared to option 1 and 3   |
 | ![Option 3](Option3.webp)<br>\* Option 3. <br>\* TCR2EF33,LM(CT <br>\* $0.12/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/TCR2EF33-LM-CT/4503183) | \* 6,657 in stock <br>\* Stable over operating temperature <br> \* 3.3 V 200mA | * 12 week manufacture lead time  <br> \* Thermal issues if using high voltage.  |
 
 **Choice:** Option #1: LM2575D2T-3.3-ND1
@@ -30,9 +30,9 @@ The following sections are the selected major components necessary for the A2 Bl
 | ----------------------------------------| ------------------------------------ | ------------------------------------------------------- |
 | ![Option 1](Button1.jpg)<br>Option 1.<br> CSMS15CIC06 <br>$7.17/each<br>[link to product](https://www.digikey.com/en/products/detail/visual-communications-company-vcc/CSMS15CIC06/8259508)                 | \* Most Visually pleasing for controller <br>\* Compatible with ESP <br>\* Meets surface mount constraint of project <br>\* No mechanical lifespan, unlimited cycles       | \* Real Expensive <br>\* Needs special PCB layout. |
 | ![Option 2](Button20.webp)<br>\* Option 2. <br>\* KP0415ASG03RGBW-2SJB <br>\* $16.44/box <br>\* [Link to product](https://www.digikey.com/en/products/detail/nkk-switches/KP0415ASG03RGBW-2SJB/16351327) | \* illuminated for style points <br> \* 3 million cycle lifespan | * 18 in stock <br>\* may require extra circuitry <br> \* Comes in box with unknown # |
-| ![Option 3](Button3.webp)<br>\* Option 3. <br>\* TL2233OA <br>\* $0.46/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/e-switch/TL2233OA/15220943) | \* Cheapest of all <br>\* SWITCH PB DPDT 0.1A 30V| \* 6-pins <br>\* 1,718 in stock    |
+| ![Option 3](Button3.webp)<br>\* Option 3. <br>\* TL9320AF400QG <br>\* $0.90/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/e-switch/TL9320AF400QG/11698099?s=N4IgTCBcDaICoBkCcBmMAGAggMQCzvQEUBxEAXQF8g) | \* Cheapest of all <br>\* Plenty in stock <br>\* 500,000 cycles| \* no real negatives    |
 
-**Choice:** Option 1: The CSMS15CIC0, is a surface mounted display button.
+**Choice:** Option 3: The TL9320AF400QG, is a surface mounted display button.
 
 **Rationale:** The reason this button was chosen is because of its characteristics. With a display button, you do not need to worry about the life cycle. The button has an IC, which means no moving parts, making it very reliable. Also, this button can very easily be used with the controller on which Subsystem A2 is placed.
 
