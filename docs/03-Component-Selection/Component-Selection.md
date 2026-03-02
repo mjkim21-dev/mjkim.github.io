@@ -30,11 +30,11 @@ The following sections are the selected major components necessary for the A2 Bl
 | ----------------------------------------| ------------------------------------ | ------------------------------------------------------- |
 | ![Option 1](Button1.jpg)<br>Option 1.<br> CSMS15CIC06 <br>$7.17/each<br>[link to product](https://www.digikey.com/en/products/detail/visual-communications-company-vcc/CSMS15CIC06/8259508)                 | \* Most Visually pleasing for controller <br>\* Compatible with ESP <br>\* Meets surface mount constraint of project <br>\* No mechanical lifespan, unlimited cycles       | \* Real Expensive <br>\* Needs special PCB layout. |
 | ![Option 2](Button20.webp)<br>\* Option 2. <br>\* KP0415ASG03RGBW-2SJB <br>\* $16.44/box <br>\* [Link to product](https://www.digikey.com/en/products/detail/nkk-switches/KP0415ASG03RGBW-2SJB/16351327) | \* illuminated for style points <br> \* 3 million cycle lifespan | * 18 in stock <br>\* may require extra circuitry <br> \* Comes in box with unknown # |
-| ![Option 3](Button3.webp)<br>\* Option 3. <br>\* TL9320AF400QG <br>\* $0.90/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/e-switch/TL9320AF400QG/11698099?s=N4IgTCBcDaICoBkCcBmMAGAggMQCzvQEUBxEAXQF8g) | \* Cheapest of all <br>\* Plenty in stock <br>\* 500,000 cycles| \* no real negatives    |
+| ![Option 3](Button30.webp)<br>\* Option 3. <br>\* TL9320AF400QG <br>\* $0.90/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/e-switch/TL9320AF400QG/11698099?s=N4IgTCBcDaICoBkCcBmMAGAggMQCzvQEUBxEAXQF8g) | \* Cheapest of all <br>\* Plenty in stock <br>\* 500,000 cycles| \* no real negatives    |
 
 **Choice:** Option 3: The TL9320AF400QG, is a surface mounted display button.
 
-**Rationale:** The reason this button was chosen is because of its characteristics. With a display button, you do not need to worry about the life cycle. The button has an IC, which means no moving parts, making it very reliable. Also, this button can very easily be used with the controller on which Subsystem A2 is placed.
+**Rationale:** The reason this button was chosen is because of its characteristics. With a display button, you do not need to worry about the life cycle. The button has an IC, which means no moving parts, making it very reliable. Also, this button can be used very easily with the controller on which Subsystem A2 is installed.
 
 
 ## Microcontroller Selection
@@ -43,7 +43,7 @@ The following sections are the selected major components necessary for the A2 Bl
 
 | **Solution**                      |        **Facts**                   |                            **Contribution**                        |
 | ---------------------------------- | ----------------------------------| -------------------------------------------------------------------|
-| ![replace this](Microcon.webp)<br>Option 1.<br> ESP32-S3-WROOM-1-N4 <br>$5.06/each<br>[product link](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16162639)       | \* Bluetooth, WiFi 802.11b/g/n, Bluetooth v5.0 Transceiver Module 2.4GHz PCB Trace Surface Mount <br>\* Meets surface mount constraint of subsystem A2     | \* For this subsystem, I am responsible for creating a bluetooth subssystem, my goal is to send and receive information. Subsystem A2 is in charge of Bluetooth communication. We plan to use Bluetooth Low Energy (BLE) in this, and A3 will be the clientin the controller side of the project.  |
+| ![replace this](Microcon.webp)<br>Option 1.<br> ESP32-S3-WROOM-1-N4 <br>$5.06/each<br>[product link](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16162639)       | \* Bluetooth, WiFi 802.11b/g/n, Bluetooth v5.0 Transceiver Module 2.4GHz PCB Trace Surface Mount <br>\* Meets surface mount constraint of subsystem A2     | \* For this subsystem, I am responsible for creating a Bluetooth subsystem. My goal is to send and receive information. Subsystem A2 is in charge of Bluetooth communication. We plan to use Bluetooth Low Energy (BLE) for this, and A3 will be the client on the controller side of the project.  |
 
 ### ESP32-S3-WROOM-1-N4 pinout
 
