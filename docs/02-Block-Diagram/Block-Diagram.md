@@ -14,4 +14,4 @@ To see the team's block diagram and how Subsystem A2 will fit in the big picture
 
 ## Block Diagram 
 
-![Indivial Block diagram ](DiagramMK.drawio.png)
+![Indivial Block diagram ](bdMK1.drawio.png)
