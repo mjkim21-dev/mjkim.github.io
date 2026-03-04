@@ -16,6 +16,6 @@ This BOM contains all the parts needed to complete the setup of Subsystem A2. Ov
 
 As you can see, the text can be difficult to read without opening the image. So please feel free to click on the image for better results.
 
-## Resouce
+## Resource
 
 The Bill of Materials as a PDF download is available [*here*](bomMK2.pdf).
