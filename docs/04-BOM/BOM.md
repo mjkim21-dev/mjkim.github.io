@@ -10,7 +10,7 @@ This BOM contains all the parts needed to complete the setup of Subsystem A2. Ov
 
 
 
-## Bill of Materials (Example as Image)
+## Bill of Materials 
 ![](billmk.png)
 **Figure 01:** Bill of Materials screenshot.
 
