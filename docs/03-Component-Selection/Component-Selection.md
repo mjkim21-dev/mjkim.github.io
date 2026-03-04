@@ -32,7 +32,7 @@ The following sections are the selected major components necessary for the A2 Bl
 | ![Option 2](Button20.webp)<br>\* Option 2. <br>\* KP0415ASG03RGBW-2SJB <br>\* $16.44/box <br>\* [Link to product](https://www.digikey.com/en/products/detail/nkk-switches/KP0415ASG03RGBW-2SJB/16351327) | \* illuminated for style points <br> \* 3 million cycle lifespan | * 18 in stock <br>\* may require extra circuitry <br> \* Comes in box with unknown # |
 | ![Option 3](Button30.webp)<br>\* Option 3. <br>\* TL9320AF400QG <br>\* $0.90/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/e-switch/TL9320AF400QG/11698099?s=N4IgTCBcDaICoBkCcBmMAGAggMQCzvQEUBxEAXQF8g) | \* Cheapest of all <br>\* Plenty in stock <br>\* 500,000 cycles| \* no real negatives    |
 
-**Choice:** Option 3: The TL9320AF400QG, is a surface mounted display button.
+**Choice:** Option 1: The TCSMS15CIC06, is a surface mounted display button.
 
 **Rationale:** The reason this button was chosen is because of its characteristics. With a display button, you do not need to worry about the life cycle. The button has an IC, which means no moving parts, making it very reliable. Also, this button can be used very easily with the controller on which Subsystem A2 is installed.
 
