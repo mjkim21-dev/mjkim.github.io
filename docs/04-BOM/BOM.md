@@ -11,11 +11,11 @@ This BOM contains all the parts needed to complete the setup of Subsystem A2. Ov
 
 
 ## Bill of Materials 
-![](billmk.png)
+![](bom3.png)
 **Figure 01:** Bill of Materials screenshot.
 
 As you can see, the text can be difficult to read without opening the image. So please feel free to click on the image for better results.
 
 ## Resource
 
-The Bill of Materials as a PDF download is available [*here*](bomMK2.pdf).
+The Bill of Materials as a PDF download is available [*here*](bomMK3.pdf).
