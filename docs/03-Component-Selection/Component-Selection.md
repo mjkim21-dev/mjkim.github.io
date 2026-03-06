@@ -53,9 +53,3 @@ The following sections are the selected major components necessary for the A2 Bl
 ### Rationale for the ESP
 The ESP32-S3-WROOM-1-N4 was chosen primarily because it supports native BLE communication and is available in a surface-mount module, satisfying the project requirement that all components be surface-mounted. The ESP32 provides sufficient processing power and peripherals for BLE client operation. Required pins for this project include 3.3V and GND.
 
-## Power Budget
-Below is screenshots of my power budget and a pdf can be downloaded [here](powerbudmk1.pdf). Also, a zipped .xlsx file can be found [here](201PowerBudgetmk.zip).
-
-  ![screen1](power1.png)
-  ![screen2](power2.png)
-  ![screen3](power3.png)
