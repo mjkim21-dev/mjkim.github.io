@@ -7,7 +7,7 @@ tags:
 <center>
 <font size= "6">Michael Kim Datasheet</font><br>
 as part of<br>
-<font size= "8"> E-Fish&Sea</font><br>
+<font size= "8"> The Duck </font><br>
 for<br>
 <font size= "5"> Team 201 </font><br>
 
