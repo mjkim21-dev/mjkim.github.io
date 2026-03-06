@@ -12,4 +12,4 @@ This schematic is designed to support Subsystem A2. In the schematic, you will s
 
 
 ## Resources
-This schematic as a PDF is available for download [*here*](EGR314.pdf), and the project Zip file is [*here*](EGR314-2.zip).
+This schematic as a PDF is available for download [*here*](EGR314.pdf), and the project Zip file is [*here*](EGR314.zip).
