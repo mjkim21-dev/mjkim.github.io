@@ -27,15 +27,15 @@ My part in Team 201 will be crucial to the controller. I am solely responsible f
 
 For this project, I am 1 out 10 people on Team 201. I am responsible for the BLE Client on the controller, so my responsibility is to design and build a circuit and PCB to run BLE out of the ESP32. As you navigate through the website, you will see all the way from concept generation to final code and pictures of the completed design.
 
-Below you will find hyperlinks to the sections. **(Update please)**
-1. ["Requirements"](https://mjkim21-dev.github.io/mjkim21.github.io/01-Requirements/Requirements/)
-2.["Block-Diagram"](https://mjkim21-dev.github.io/mjkim21.github.io/02-Block-Diagram/Block-Diagram/)
-3.["Component Selection"](https://mjkim21-dev.github.io/mjkim21.github.io/03-Component-Selection/Component-Selection/)
-4.["BOM"](https://mjkim21-dev.github.io/mjkim21.github.io/04-BOM/BOM/)
-5. ["Power Budget"](https://mjkim21-dev.github.io/mjkim21.github.io/05-Power%20Budget/powerbud/)
-6. ["Schematic"](https://mjkim21-dev.github.io/mjkim21.github.io/06-Schematic/schematic/)
-7. ["PCB design"](https://mjkim21-dev.github.io/mjkim21.github.io/07-PCB/pcb/)
-8. ["Reflection"](insert link here) 
+Below you will find hyperlinks to the sections. <br>
+1.["Requirements"](https://mjkim21-dev.github.io/mjkim21.github.io/01-Requirements/Requirements/) <br>
+2.["Block-Diagram"](https://mjkim21-dev.github.io/mjkim21.github.io/02-Block-Diagram/Block-Diagram/) <br>
+3.["Component Selection"](https://mjkim21-dev.github.io/mjkim21.github.io/03-Component-Selection/Component-Selection/) <br>
+4.["BOM"](https://mjkim21-dev.github.io/mjkim21.github.io/04-BOM/BOM/) <br>
+5.["Power Budget"](https://mjkim21-dev.github.io/mjkim21.github.io/05-Power%20Budget/powerbud/) <br>
+6.["Schematic"](https://mjkim21-dev.github.io/mjkim21.github.io/06-Schematic/schematic/) <br>
+7.["PCB design"](https://mjkim21-dev.github.io/mjkim21.github.io/07-PCB/pcb/) <br>
+8.["Reflection"](insert link here) 
 
 
  
