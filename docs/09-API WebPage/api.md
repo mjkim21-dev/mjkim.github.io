@@ -3,7 +3,7 @@ title: API WebPage
 ---
 
 ## Overview 
-My communication for Subsystem A2 is apart of a buffer system with Subsystem A3 (Neel). We have a simple structure where we connect and allopw information to be passed from the robot and to the controller. In this case I am responsible for the controller side of the communication. 
+My communication for Subsystem A2 is apart of a buffer system with Subsystem A3 ([Neel](https://neelgarde.github.io/NeelGarde/)). We have a simple structure where we connect and allopw information to be passed from the robot and to the controller. In this case I am responsible for the controller side of the communication. 
 
 <h3>Example: Message Type 64 -- Motor Speed Setpoint</h3>
 
