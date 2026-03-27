@@ -3,9 +3,9 @@ title: API WebPage
 ---
 
 ## Overview 
-My communication for Subsystem A2 is apart of a buffer system with Subsystem A3 ([Neel](https://neelgarde.github.io/NeelGarde/)). We have a simple structure where we connect and allopw information to be passed from the robot and to the controller. In this case I am responsible for the controller side of the communication. 
+My communication for Subsystem A2 is a part of a buffer system with Subsystem A3 ([Neel](https://neelgarde.github.io/NeelGarde/)). We have a simple structure that allows information to be passed from the robot to the controller. In this case, I am responsible for the controller side of the communication. For this system, Neel and I are sharing a package containing uInt8; from then on, my code will have buffers to send to Subsystem A1 ([Isaac](https://isrysm52.github.io/EGR314_isrysm52.github.io/)). 
 
-<h3>Example: Message Type 64 -- Motor Speed Setpoint</h3>
+<h3>To A3 (Neel): Message Type ### -- Message Structure BLE</h3>
 
 <table>
   <thead>
