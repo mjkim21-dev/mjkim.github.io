@@ -43,7 +43,8 @@ My communication for Subsystem A2 is a part of a buffer system with Subsystem A3
 </tbody>
 </table>
 
-<h3>To Subsystem A1 (Isaac): Message Type 10 -- BLE To Client (Relay)</h3>
+
+<h3>To Subsystem A1 (Isaac): Message Type 10 -- BLE Relay (To Client)</h3>
 <table>
 <thead>
 <tr>
@@ -93,13 +94,18 @@ My communication for Subsystem A2 is a part of a buffer system with Subsystem A3
 <td>B</td>
 <td>A</td>
 <td>10</td>
-<td>I</td>
+<td>H</td>
 <td>A</td>
-<td>53</td>
+<td>125</td>
 <td>0</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td colspan="7">Relayed message types include: 5 (Speed), 6 (Distance), 7 (Temperature), 12 (Role Call)</td>
 </tr>
 </tbody>
 </table>
+
 
 <h3>To Subsystem A3 (Neel): Message Type 10 -- BLE Tunnel</h3>
 <table>
@@ -151,13 +157,14 @@ My communication for Subsystem A2 is a part of a buffer system with Subsystem A3
 <td>B</td>
 <td>C</td>
 <td>10</td>
-<td>I</td>
-<td>A</td>
+<td>J</td>
+<td>X</td>
 <td>53</td>
 <td>0</td>
 </tr>
 </tbody>
 </table>
+
 
 <h3>To Subsystem A3 (Neel): Message Type 11 -- BLE Heartbeat</h3>
 <table>
@@ -196,6 +203,7 @@ My communication for Subsystem A2 is a part of a buffer system with Subsystem A3
 </tr>
 </tbody>
 </table>
+
 
 <h3>Broadcast: Message Type 12 -- Role Call</h3>
 <table>
