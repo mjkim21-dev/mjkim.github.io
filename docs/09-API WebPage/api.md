@@ -181,7 +181,7 @@ My communication for Subsystem A2 is a part of a buffer system with Subsystem A3
   </tbody>
 </table>
 
-<h3>Broadcast: Message Type 12 -- Roll Call</h3>
+<h3>Broadcast: Message Type 12 -- Role Call</h3>
 
 <table>
   <thead>
