@@ -902,9 +902,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#messages-on-subsystem-a2" class="md-nav__link">
+  <a href="#bluetooth-control-apis" class="md-nav__link">
     <span class="md-ellipsis">
-      Messages on Subsystem A2
+      Bluetooth Control APIs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#debugging" class="md-nav__link">
+    <span class="md-ellipsis">
+      Debugging
     </span>
   </a>
   
@@ -1019,9 +1028,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#messages-on-subsystem-a2" class="md-nav__link">
+  <a href="#bluetooth-control-apis" class="md-nav__link">
     <span class="md-ellipsis">
-      Messages on Subsystem A2
+      Bluetooth Control APIs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#debugging" class="md-nav__link">
+    <span class="md-ellipsis">
+      Debugging
     </span>
   </a>
   
@@ -1056,8 +1074,8 @@
 <p>My communication for Subsystem A2 is a part of a buffer system with Subsystem A3 (<a href="https://neelgarde.github.io/NeelGarde/09-API/api/">Neel</a>). We have a simple structure that allows information to be passed from the robot to the controller. In this case, I am responsible for the controller side of the communication. For this system, Neel and I are sharing a package containing uInt8; from then on, my code will have buffers to send to Subsystem A1 (<a href="https://isrysm52.github.io/EGR314_isrysm52.github.io/07-API/API/">Isaac</a>). </p>
 <h2 id="team-message-structure">Team Message Structure</h2>
 <p>All information regarding team message structure and message types can be found by clicking <a href="https://egr314-s-2026-201.github.io/04-Team-Block-Diagram/Team-Diagram/">here</a> and scrolling down towards the bottom of the page.</p>
-<h2 id="messages-on-subsystem-a2">Messages on Subsystem A2</h2>
-<h3>To Subsystem A1 (Isaac): Message Type 9 -- Bluetooth Error</h3>
+<h2 id="bluetooth-control-apis">Bluetooth Control APIs</h2>
+<h3>To Subsystem A1 (Isaac/Controller): Message Type 9 -- Bluetooth Error</h3>
 <table>
 <thead>
 <tr>
@@ -1095,7 +1113,7 @@
 </tbody>
 </table>
 
-<h3>To Subsystem A1 (Isaac): Message Type 10 -- BLE Relay (To Client)</h3>
+<h3>To Subsystem A1 (Isaac/Controller): Message Type 10 -- BLE Relay (To Client)</h3>
 <table>
 <thead>
 <tr>
@@ -1157,7 +1175,7 @@
 </tbody>
 </table>
 
-<h3>To Subsystem A3 (Neel): Message Type 10 -- BLE Tunnel</h3>
+<h3>To Subsystem A3 (Neel/Boat): Message Type 10 -- BLE Tunnel</h3>
 <table>
 <thead>
 <tr>
@@ -1215,7 +1233,7 @@
 </tbody>
 </table>
 
-<h3>To Subsystem A3 (Neel): Message Type 11 -- BLE Heartbeat</h3>
+<h3>To Subsystem A3 (Neel/Boat): Message Type 11 -- BLE Heartbeat</h3>
 <table>
 <thead>
 <tr>
@@ -1253,6 +1271,7 @@
 </tbody>
 </table>
 
+<h2 id="debugging">Debugging</h2>
 <h3>Broadcast: Message Type 12 -- Role Call</h3>
 <table>
 <thead>
