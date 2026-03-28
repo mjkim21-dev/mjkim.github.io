@@ -5,6 +5,10 @@ title: API WebPage
 ## Overview 
 My communication for Subsystem A2 is a part of a buffer system with Subsystem A3 ([Neel](https://neelgarde.github.io/NeelGarde/)). We have a simple structure that allows information to be passed from the robot to the controller. In this case, I am responsible for the controller side of the communication. For this system, Neel and I are sharing a package containing uInt8; from then on, my code will have buffers to send to Subsystem A1 ([Isaac](https://isrysm52.github.io/EGR314_isrysm52.github.io/07-API/API/)). 
 
+## Team Message Structure
+All information regarding team message structure and message types can be found by clicking [here](https://egr314-s-2026-201.github.io/04-Team-Block-Diagram/Team-Diagram/) and scrolling down towards the bottom of the page.
+
+## Messages on Subsystem A2
 <h3>To Subsystem A1 (Isaac): Message Type 9 -- Bluetooth Error</h3>
 <table>
 <thead>
@@ -42,7 +46,6 @@ My communication for Subsystem A2 is a part of a buffer system with Subsystem A3
 </tr>
 </tbody>
 </table>
-
 
 <h3>To Subsystem A1 (Isaac): Message Type 10 -- BLE Relay (To Client)</h3>
 <table>
@@ -106,7 +109,6 @@ My communication for Subsystem A2 is a part of a buffer system with Subsystem A3
 </tbody>
 </table>
 
-
 <h3>To Subsystem A3 (Neel): Message Type 10 -- BLE Tunnel</h3>
 <table>
 <thead>
@@ -165,7 +167,6 @@ My communication for Subsystem A2 is a part of a buffer system with Subsystem A3
 </tbody>
 </table>
 
-
 <h3>To Subsystem A3 (Neel): Message Type 11 -- BLE Heartbeat</h3>
 <table>
 <thead>
@@ -203,7 +204,6 @@ My communication for Subsystem A2 is a part of a buffer system with Subsystem A3
 </tr>
 </tbody>
 </table>
-
 
 <h3>Broadcast: Message Type 12 -- Role Call</h3>
 <table>
