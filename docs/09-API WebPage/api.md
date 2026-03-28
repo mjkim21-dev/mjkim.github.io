@@ -57,8 +57,6 @@ All information regarding team message structure and message types can be found 
 <th>Byte 3</th>
 <th>Byte 4</th>
 <th>Byte 5</th>
-<th>Byte 6</th>
-<th>Byte 7</th>
 </tr>
 </thead>
 <tbody>
@@ -67,18 +65,14 @@ All information regarding team message structure and message types can be found 
 <td><code>sender_id</code></td>
 <td><code>receiver_id</code></td>
 <td><code>message_type</code></td>
-<td><code>relay_sender</code></td>
-<td><code>relay_receiver</code></td>
-<td><code>data_1</code></td>
-<td><code>data_2</code></td>
+<td><code>data_high</code></td>
+<td><code>data_low</code></td>
 </tr>
 <tr>
 <td><strong>Variable Type</strong></td>
 <td><code>char</code></td>
 <td><code>char</code></td>
 <td><code>uint8_t</code></td>
-<td><code>char</code></td>
-<td><code>char</code></td>
 <td><code>uint8_t</code></td>
 <td><code>uint8_t</code></td>
 </tr>
@@ -87,8 +81,6 @@ All information regarding team message structure and message types can be found 
 <td>B</td>
 <td>A</td>
 <td>10</td>
-<td>A–J</td>
-<td>A–J</td>
 <td>0–255</td>
 <td>0–255</td>
 </tr>
@@ -97,14 +89,12 @@ All information regarding team message structure and message types can be found 
 <td>B</td>
 <td>A</td>
 <td>10</td>
-<td>H</td>
-<td>A</td>
 <td>125</td>
 <td>0</td>
 </tr>
 <tr>
 <td><strong>Notes</strong></td>
-<td colspan="7">Relayed message types include: 5 (Speed), 6 (Distance), 7 (Temperature), 12 (Role Call)</td>
+<td colspan="5">Encapsulates original message types (5, 6, 7, 12). Original sender/receiver are preserved in payload interpretation.</td>
 </tr>
 </tbody>
 </table>
