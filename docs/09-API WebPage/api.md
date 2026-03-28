@@ -8,8 +8,8 @@ My communication for Subsystem A2 is a part of a buffer system with Subsystem A3
 ## Team Message Structure
 All information regarding team message structure and message types can be found by clicking [here](https://egr314-s-2026-201.github.io/04-Team-Block-Diagram/Team-Diagram/) and scrolling down towards the bottom of the page.
 
-## Messages on Subsystem A2
-<h3>To Subsystem A1 (Isaac): Message Type 9 -- Bluetooth Error</h3>
+## Bluetooth Control APIs
+<h3>To Subsystem A1 (Isaac/Controller): Message Type 9 -- Bluetooth Error</h3>
 <table>
 <thead>
 <tr>
@@ -47,7 +47,7 @@ All information regarding team message structure and message types can be found 
 </tbody>
 </table>
 
-<h3>To Subsystem A1 (Isaac): Message Type 10 -- BLE Relay (To Client)</h3>
+<h3>To Subsystem A1 (Isaac/Controller): Message Type 10 -- BLE Relay (To Client)</h3>
 <table>
 <thead>
 <tr>
@@ -109,7 +109,7 @@ All information regarding team message structure and message types can be found 
 </tbody>
 </table>
 
-<h3>To Subsystem A3 (Neel): Message Type 10 -- BLE Tunnel</h3>
+<h3>To Subsystem A3 (Neel/Boat): Message Type 10 -- BLE Tunnel</h3>
 <table>
 <thead>
 <tr>
@@ -167,7 +167,7 @@ All information regarding team message structure and message types can be found 
 </tbody>
 </table>
 
-<h3>To Subsystem A3 (Neel): Message Type 11 -- BLE Heartbeat</h3>
+<h3>To Subsystem A3 (Neel/Boat): Message Type 11 -- BLE Heartbeat</h3>
 <table>
 <thead>
 <tr>
@@ -204,6 +204,8 @@ All information regarding team message structure and message types can be found 
 </tr>
 </tbody>
 </table>
+
+## Debugging
 
 <h3>Broadcast: Message Type 12 -- Role Call</h3>
 <table>
