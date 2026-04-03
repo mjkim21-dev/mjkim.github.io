@@ -121,8 +121,8 @@ All information regarding team message structure and message types can be found 
 <td><code>message_type</code></td>
 <td><code>relay_sender</code></td>
 <td><code>relay_receiver</code></td>
+<td><code>Relay Type</code></td>
 <td><code>data_1</code></td>
-<td><code>data_2</code></td>
 </tr>
 <tr>
 <td><strong>Variable Type</strong></td>
@@ -151,8 +151,8 @@ All information regarding team message structure and message types can be found 
 <td>10</td>
 <td>J</td>
 <td>X</td>
+<td>41</td>
 <td>53</td>
-<td>0</td>
 </tr>
 </tbody>
 </table>
