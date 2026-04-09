@@ -29,11 +29,11 @@ This PCB is Subsystem A2; it is the BLE Client that is housed on the controller 
 
 ## Manufactured Board
 
-![top](.png)
+![top](PCBSkelFront.png)
 
 **Figure 4:** shows the Skeleton of the Top-side PCB
 
-![bottom](.png)
+![bottom](PCBSkelBack.png)
 
 **Figure 5:** shows the Skeleton of the bottom-side PCB
 
