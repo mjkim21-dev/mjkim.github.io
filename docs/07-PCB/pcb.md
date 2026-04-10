@@ -28,11 +28,11 @@ The reason that the above schematics look different is because it is updated to 
 
 **Figure 5:** shows the Skeleton of the bottom-side PCB
 
-![top](.png)
+![top](pcbmadeF.png)
 
 **Figure 6:** shows the Top-side PCB
 
-![bottom](.png)
+![bottom](pcbmadeB.png)
 
 **Figure 7:** shows the bottom-side PCB
 
