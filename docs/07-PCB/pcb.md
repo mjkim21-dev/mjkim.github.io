@@ -7,7 +7,7 @@ title: Module's PCB
 This PCB is Subsystem A2; it is the BLE Client that is housed on the controller part of the team project. The main components include the ESP32 and buttons, as most of the work will be done on the Bluetooth communication. A major change is the addition of a majority of surface-mounted parts, which is a new constraint in the EGR 314 Project. If you would like to view more information about the team component, you can visit [team project requirements](https://egr314-s-2026-201.github.io/03-Project-Requirements/Project-requirements/).
 
 
-## PCB View
+## PCB Schematic View
 
 ![PCB](frontpcb.png) 
 
