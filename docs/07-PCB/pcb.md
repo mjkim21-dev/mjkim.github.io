@@ -37,6 +37,6 @@ The reason that the above schematics look different is because it is updated to 
 **Figure 7:** shows the bottom-side PCB
 
 ## Additional Info
-The project files can be found in the previous tab in the [schematic section](https://mjkim21-dev.github.io/mjkim21.github.io/05-Schematic/schematic/). If you are looking for the Gerber files to get the PCB made, you can find them [here](Michael201.zip). For the v2 Gerber files, you can find them [here](.zip). 
+The project files can be found in the previous tab in the [schematic section](https://mjkim21-dev.github.io/mjkim21.github.io/05-Schematic/schematic/). If you are looking for the Gerber files to get the PCB made, you can find them [here](Michael201.zip). For the v2 Gerber files, you can find them [here](drillmkv2.zip). 
 
 
