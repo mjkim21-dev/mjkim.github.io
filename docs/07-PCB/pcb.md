@@ -17,17 +17,8 @@ This PCB is Subsystem A2; it is the BLE Client that is housed on the controller 
 
 **Figure 2:** Showing Subsystem A2 PCB Rear
 
-## PCB 3D View 
-
-![PCB](front3d.png) 
-
-**Figure 3:** Shows Subsystem A2 PCB Front
-
-![PCB](back3d.png) 
-
-**Figure 3:** Shows Subsystem A2 PCB Rear
-
 ## Manufactured Board
+The reason that the above schematics look different is because it is updated to reflect changes made through debugging the actual version 1 PCB. So the above schematic shows PCB v2 of subsytem A2, as the first version had some issues, such as no decoupling capacitor attached to the esp32, some added extra connections and rerouted Rx and Tx pins, as well as some spacing difference in the connector pins to allow the outside casing of the connector to fit, finally there were some updates to the traces of the test points. Everything below is from the first version of subsystem A2.
 
 ![top](PCBSkelFront.png)
 
@@ -46,6 +37,6 @@ This PCB is Subsystem A2; it is the BLE Client that is housed on the controller 
 **Figure 7:** shows the bottom-side PCB
 
 ## Additional Info
-The project files can be found in the previous tab in the [schematic section](https://mjkim21-dev.github.io/mjkim21.github.io/05-Schematic/schematic/). If you are looking for the gerber files, to get the pcb made, you can find them [here](Michael201.zip).
+The project files can be found in the previous tab in the [schematic section](https://mjkim21-dev.github.io/mjkim21.github.io/05-Schematic/schematic/). If you are looking for the Gerber files to get the PCB made, you can find them [here](Michael201.zip).
 
 
