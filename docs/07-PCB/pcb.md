@@ -9,11 +9,11 @@ This PCB is Subsystem A2; it is the BLE Client that is housed on the controller 
 
 ## PCB Schematic View
 
-![PCB](frontpcb.png) 
+![PCB](pcbf.png) 
 
 **Figure 1:** Showing Subsystem A2 PCB Front
 
-![PCB](backpcb.png) 
+![PCB](pcbb.png) 
 
 **Figure 2:** Showing Subsystem A2 PCB Rear
 
