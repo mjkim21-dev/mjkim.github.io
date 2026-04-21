@@ -1,0 +1,22 @@
+---
+title: Subsystem A2 v2.0
+---
+
+## Overview
+The first version had some issues: no decoupling capacitor was attached to the ESP32, some extra connections were added, Rx and Tx pins were rerouted, and there were spacing differences in the connector pins to allow the outside casing of the connector to fit. Finally, there were some updates to the traces of the test points. Everything below is from the first version of subsystem A2.
+
+## Updated Schematic
+![schematic](schematic2.png)
+**Figure 01:** Showing schematic of Subsystem A2.
+
+## Updated PCB
+![PCB](frontpcb.png) 
+
+**Figure 1:** Showing Subsystem A2 PCB Front
+
+![PCB](backpcb.png) 
+
+**Figure 2:** Showing Subsystem A2 PCB Rear
+
+## Files
+To access the files, I have updated the original files to the [schematic]() and [PCB]() sections. If you would like to reproduce this subsystem, please don't download "version 1". 
