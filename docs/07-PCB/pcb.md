@@ -18,7 +18,6 @@ This PCB is Subsystem A2; it is the BLE Client that is housed on the controller 
 **Figure 2:** Showing Subsystem A2 PCB Rear
 
 ## Manufactured Board
-The reason that the above schematics look different is because it is updated to reflect changes made through debugging the actual version 1 PCB. So the above schematic shows PCB v2 of subsytem A2, as the first version had some issues, such as no decoupling capacitor attached to the esp32, some added extra connections and rerouted Rx and Tx pins, as well as some spacing difference in the connector pins to allow the outside casing of the connector to fit, finally there were some updates to the traces of the test points. Everything below is from the first version of subsystem A2.
 
 ![top](PCBSkelFront.png)
 
