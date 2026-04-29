@@ -9,45 +9,7 @@ My communication for Subsystem A2 is a part of a buffer system with Subsystem A3
 All information regarding team message structure and message types can be found by clicking [here](https://egr314-s-2026-201.github.io/04-Team-Block-Diagram/Team-Diagram/) and scrolling down towards the bottom of the page.
 
 ## Bluetooth Control APIs
-<h3>To Subsystem A1 (Isaac/Controller): Message Type 9 -- Bluetooth Error</h3>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>Byte 1</th>
-<th>Byte 2</th>
-<th>Byte 3</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Variable Name</strong></td>
-<td><code>sender_id</code></td>
-<td><code>receiver_id</code></td>
-<td><code>message_type</code></td>
-</tr>
-<tr>
-<td><strong>Variable Type</strong></td>
-<td><code>char</code></td>
-<td><code>char</code></td>
-<td><code>uint8_t</code></td>
-</tr>
-<tr>
-<td><strong>Value</strong></td>
-<td>B or C</td>
-<td>A</td>
-<td>9</td>
-</tr>
-<tr>
-<td><strong>Example</strong></td>
-<td>C</td>
-<td>A</td>
-<td>9</td>
-</tr>
-</tbody>
-</table>
-
-<h3>To Subsystem A1 (Isaac/Controller): Message Type 10 -- BLE Relay (To Client)</h3>
+<h3>To Subsystem A1 (Isaac/Controller): Message Type I -- BLE Relay (To Client)</h3>
 <table>
 <thead>
 <tr>
@@ -99,7 +61,7 @@ All information regarding team message structure and message types can be found 
 </tbody>
 </table>
 
-<h3>To Subsystem A3 (Neel/Boat): Message Type 10 -- BLE Tunnel</h3>
+<h3>To Subsystem A3 (Neel/Boat): Message Type I -- BLE Tunnel</h3>
 <table>
 <thead>
 <tr>
@@ -157,47 +119,9 @@ All information regarding team message structure and message types can be found 
 </tbody>
 </table>
 
-<h3>To Subsystem A3 (Neel/Boat): Message Type 11 -- BLE Heartbeat</h3>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>Byte 1</th>
-<th>Byte 2</th>
-<th>Byte 3</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Variable Name</strong></td>
-<td><code>sender_id</code></td>
-<td><code>receiver_id</code></td>
-<td><code>message_type</code></td>
-</tr>
-<tr>
-<td><strong>Variable Type</strong></td>
-<td><code>char</code></td>
-<td><code>char</code></td>
-<td><code>uint8_t</code></td>
-</tr>
-<tr>
-<td><strong>Value</strong></td>
-<td>B</td>
-<td>C</td>
-<td>11</td>
-</tr>
-<tr>
-<td><strong>Example</strong></td>
-<td>B</td>
-<td>C</td>
-<td>11</td>
-</tr>
-</tbody>
-</table>
-
 ## Debugging
 
-<h3>Broadcast: Message Type 12 -- Role Call</h3>
+<h3>Broadcast: Message Type J -- Role Call</h3>
 <table>
 <thead>
 <tr>
@@ -236,4 +160,4 @@ All information regarding team message structure and message types can be found 
 </table>
 
 ## Code Files
-The zip file to all my code, including testing and debugging code can be found [here](314_Code.zip).
+The zip file to all my code, including testing and debugging code, can be found [here](314_Code.zip).
