@@ -42,7 +42,7 @@ All information regarding team message structure and message types can be found 
 <td><strong>Value</strong></td>
 <td>B</td>
 <td>A</td>
-<td>10</td>
+<td>J</td>
 <td>0–255</td>
 <td>0–255</td>
 </tr>
@@ -50,7 +50,7 @@ All information regarding team message structure and message types can be found 
 <td><strong>Example</strong></td>
 <td>B</td>
 <td>A</td>
-<td>10</td>
+<td>J</td>
 <td>125</td>
 <td>0</td>
 </tr>
@@ -100,7 +100,7 @@ All information regarding team message structure and message types can be found 
 <td><strong>Value</strong></td>
 <td>B</td>
 <td>C</td>
-<td>10</td>
+<td>J</td>
 <td>A–J</td>
 <td>A–J</td>
 <td>0–255</td>
@@ -110,7 +110,7 @@ All information regarding team message structure and message types can be found 
 <td><strong>Example</strong></td>
 <td>B</td>
 <td>C</td>
-<td>10</td>
+<td>J</td>
 <td>J</td>
 <td>X</td>
 <td>41</td>
