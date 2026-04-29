@@ -6,7 +6,7 @@ tags:
 ---
 
 ## Overview
-This BOM contains all the parts needed to complete the setup of Subsystem A2. Overall, the class's cost constraint is $60, but this BOM includes both materials and links to each component. I have also included prices and quantities used as well as other information to help track the components on the schematic and PCB.
+This BOM contains all the parts needed to complete the setup of Subsystem A2. Overall, the class's cost constraint is $60, but this BOM includes both materials and links to each component. I have also included prices and quantities used, as well as other information to help track the components on the schematic and PCB.
 
 
 
@@ -24,4 +24,4 @@ Some parts of this BOM are with updated sizes of the components, as you can see 
 
 ## Resources
 
-The Bill of Materials as a PDF download is available [*here*](bomk6.pdf).
+The Bill of Materials as a PDF download is available [*here*](bomk6.pdf). For downloading the Final BOM, click [*here*](314finalBOM.pdf).
