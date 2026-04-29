@@ -56,7 +56,7 @@ All information regarding team message structure and message types can be found 
 </tr>
 <tr>
 <td><strong>Notes</strong></td>
-<td colspan="5">Encapsulates original message types (5, 6, 7, 12). Original sender/receiver are preserved in payload interpretation.</td>
+<td colspan="5">Encapsulates original message types (E, F, G, L). Original sender/receiver are preserved in payload interpretation.</td>
 </tr>
 </tbody>
 </table>
