@@ -3,7 +3,9 @@ title: Resources
 ---
 
 ## Overview
-“Subsystem A2 is implemented using Bluetooth Low Energy (BLE) communication via the aioble library, which provides a GATT-based interface; this allows it to exchange data with Subsystem A3 (Neel) within the overall system architecture.”
+“Subsystem A2 is implemented using Bluetooth Low Energy (BLE) communication via the aioble library, which provides a GATT-based interface; this allows it to exchange data with Subsystem A3 (Neel) within the overall system architecture.” 
+
+For how my code is structured, each protocol is implemented as its own async def task, and then at the bottom, there’s a central async def main() that calls all of them using asyncio.gather(). Because we’re using asyncio, we get cooperative concurrency, meaning each task runs until it hits an await, then the event loop switches to another task. This lets multiple parts of the system (BLE, UART, etc.) run responsively without blocking each other. Instead of using traditional blocking delays or writing interrupt-style logic, we rely on event-driven await calls and non-blocking sleeps to handle timing and communication.
 
 To download files, [here](314_final.zip) is a zip file containing everything from the kiCAD files to the code used.
 
