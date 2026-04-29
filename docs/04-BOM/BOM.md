@@ -17,7 +17,7 @@ This BOM contains all the parts needed to complete the setup of Subsystem A2. Ov
 As you can see, the text can be difficult to read without opening the image. Please feel free to click the image for better results.
 
 ## Final BOM 
-![](.png)
+![](finalBOM.png)
 **Figure 02:** Final Bill of Materials screenshot.
 
 Some parts of this BOM are with updated sizes of the components, as you can see from Figure 1, some components I originally selected were way too small, so this update changes all that to kind of standardize the size of components and make soldering life much easier.
