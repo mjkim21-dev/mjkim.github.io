@@ -5,7 +5,7 @@ title: Resources
 ## Overview
 “Subsystem A2 is implemented using Bluetooth Low Energy (BLE) communication via the aioble library, which provides a GATT-based interface; this allows it to exchange data with Subsystem A3 (Neel) within the overall system architecture.”
 
-To download files, [here](314_final) is a zip file containing everything from the kiCAD files to the code used.
+To download files, [here](314_final.zip) is a zip file containing everything from the kiCAD files to the code used.
 
 Below is the uploaded code in the main.py file. 
 ```c
