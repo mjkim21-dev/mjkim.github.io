@@ -36,6 +36,9 @@ Below you will find hyperlinks to the sections. <br>
 6.["Schematic"](https://mjkim21-dev.github.io/mjkim21.github.io/06-Schematic/schematic/) <br>
 7.["PCB design"](https://mjkim21-dev.github.io/mjkim21.github.io/07-PCB/pcb/) <br>
 8.["Reflection"](insert link here) 
+9.["API WebPage"](insert link here) 
+10.["Hardware 2.0"](insert link here) 
+11.["Resources"](insert link here) 
 
 
  
