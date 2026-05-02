@@ -29,7 +29,7 @@ Lastly, time management also proved critical, as integration and debugging requi
 ## Recommendations for Future Students
 
 1. Develop a strong understanding of microcontrollers and communication protocols such as UART, I2C, SPI, and BLE before starting the project.  
-2. Begin implementation early and focus on building a simple working prototype before adding complexity.  
-3. Break the system into smaller subsystems and verify each independently before full integration.  
+2. Map out enough time if you plan to make your project complex.  
+3. As a team, standardize component sizes for PCBs and also check each pinout on the connector ribbons and class standards.  
 4. Use version control and maintain clear documentation throughout the project lifecycle.  
 5. Plan for extensive debugging and testing time, especially during subsystem integration.  
