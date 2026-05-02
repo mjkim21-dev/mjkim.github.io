@@ -9,14 +9,13 @@ Subsystem A2 successfully met its primary requirement of designing and manufactu
 ## Microcontroller/Module Startup Tips
 
 - Verify your development environment early, including firmware, board definitions, and library compatibility.  
-- Start with a minimal working example, such as basic BLE advertising, before integrating full functionality.  
-- Use serial output or logging to confirm execution flow and identify failures.  
+- If working in a large group, communicate early and often.
+- Take your time when designing the schematic and PCB, make sure traces are the correct size and pinouts are correct. 
 - Double-check pin configurations and hardware connections before assuming software faults.  
 - Read library documentation carefully, especially for BLE libraries like `aioble`.  
 - Test each subsystem independently before attempting integration and pairing.  
 - Keep your code modular so components can be debugged efficiently.  
 - Use version control frequently to preserve working configurations.  
-- Be cautious with asynchronous code and timing dependencies in BLE systems.  
 - Allocate sufficient time for debugging and iteration.  
 
 ## Lessons Learned
