@@ -18,6 +18,10 @@ for<br>
 
 This datasheet has all the information regarding subsystem A2, which I am responsible for. Navigating through the website will allow you to understand the processes I went through to design and build Subsystem A2, which is mostly in charge of the Bluetooth Low Energy (BLE) client. 
 
+![final photo](IMG_1427.jpg)
+
+**Figure 1**: final subsystem A2
+
 ### Project Summary
 
 My part in Team 201 will be crucial to the controller. I am solely responsible for the Bluetooth connection in the controller piece. My role is to receive and send data to and from the robot via Bluetooth. This subsystem, A2, will consist only of buttons and will serve a support role to Subsystem A1 to ensure the controller displays as much information as possible and has a working user interface. If you would like to get a better idea of just how this subsystem fits, check the [team report.](https://egr314-s-2026-201.github.io/)
