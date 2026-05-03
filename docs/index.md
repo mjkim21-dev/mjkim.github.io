@@ -35,11 +35,11 @@ Below you will find hyperlinks to the sections. <br>
 5.["Power Budget"](https://mjkim21-dev.github.io/mjkim21.github.io/05-Power%20Budget/powerbud/) <br>
 6.["Schematic"](https://mjkim21-dev.github.io/mjkim21.github.io/06-Schematic/schematic/) <br>
 7.["PCB design"](https://mjkim21-dev.github.io/mjkim21.github.io/07-PCB/pcb/) <br>
-8.["Reflection"](insert link here) <br>
-9.["API WebPage"](insert link here) <br>
-10.["Hardware 2.0"](insert link here) <br>
-11.["Resources"](insert link here) <br>
-
+8.["API WebPage"](https://mjkim21-dev.github.io/mjkim21.github.io/08-API%20WebPage/api/) <br>
+9.["Hardware 2.0"](https://mjkim21-dev.github.io/mjkim21.github.io/09-Hardware-V2.0/v2.0/) <br>
+10.["Resources"](https://mjkim21-dev.github.io/mjkim21.github.io/10-Resources/resources/) <br>
+11.["Reflection"](https://mjkim21-dev.github.io/mjkim21.github.io/11-Reflection/Reflection/) <br>
+12.["Appendix"](https://mjkim21-dev.github.io/mjkim21.github.io/Appendix/appendix/) <br>
 
  
 
