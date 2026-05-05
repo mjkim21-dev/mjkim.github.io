@@ -9,9 +9,5 @@ blockquote{
     p,li{
         color: var(--md-typeset-color);
     }
-.md-typeset .tabbed-content {
-  max-height: 400px;
-  overflow-y: auto;
-  padding-right: 0.5rem;
 }
 }
