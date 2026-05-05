@@ -6,7 +6,7 @@ title: API WebPage
 My communication for Subsystem A2 is a part of a buffer system with Subsystem A3 ([Neel](https://nsgarde.github.io/NeelGarde/09-API/api/)). We have a simple structure that allows information to be passed from the robot to the controller. In this case, I am responsible for the controller side of the communication. For this system, Neel and I are sharing a package containing uInt8; from then on, my code will have buffers to send to Subsystem A1 ([Isaac](https://isrysm52.github.io/EGR314_isrysm52.github.io/07-API/API/)). 
 
 Heres a video of subsystems A2 and A3 performing their role as bluetooth relays with a network of A2, A3, B2, C1 and C2 can be played here:
-<iframe width="933" height="525" src="https://www.youtube.com/embed/HxlxxhWw3LE" title="EGR314 Team 201 Partial Comms Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="818" height="460" src="https://www.youtube.com/embed/HxlxxhWw3LE" title="EGR314 Team 201 Partial Comms Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Team Message Structure
 All information regarding team message structure and message types can be found by clicking [here](https://egr314-s-2026-201.github.io/04-Team-Block-Diagram/Team-Diagram/) and scrolling down towards the bottom of the page.
