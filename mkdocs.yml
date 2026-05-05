@@ -24,7 +24,7 @@ theme:
     - content.action.edit
     - navigation.footer
 #    - navigation.sections
-#    - navigation.expand
+    - navigation.expand
 #    - navigation.instant # doesn't work that well
 
 markdown_extensions:
@@ -59,7 +59,7 @@ extra_javascript:
 not_in_nav: |
   static
   
-copyright: "Copyright &copy; 2026 Michael Kim II"
+copyright: "Copyright &copy; 2026 Team 201"
 
 extra:
   generator: false
@@ -67,3 +67,17 @@ extra:
     - icon: fontawesome/regular/file-code
       link: /2026_spring
       name: 2026 Site    
+
+nav:
+  - Home: index.md
+  - Requirements: 01-Requirements/Requirements.md
+  - Block Diagram: 02-Block-Diagram/Block-Diagram.md
+  - Component Selection: 03-Component-Selection/Component-Selection.md
+  - Power Budget: 05-Power/powerbud.md
+  - Schematic: 06-Schematic/schematic.md
+  - BOM: 04-BOM/BOM.md
+  - PCB: 07-PCB/pcb.md
+  - API: 08-API/api.md
+  - Hardware Version 2.0: 09-Hardware-V2.0/v2.0.md
+  - Resources: 10-Resources/resources.md
+  - Reflection: 11-Reflection/Reflection.md
