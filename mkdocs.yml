@@ -77,7 +77,7 @@ nav:
   - Schematic: 06-Schematic/schematic.md
   - BOM: 04-BOM/BOM.md
   - PCB: 07-PCB/pcb.md
-  - API: 08-API/api.md
+  - API: 08-API WebPage/api.md
   - Hardware Version 2.0: 09-Hardware-V2.0/v2.0.md
   - Resources: 10-Resources/resources.md
   - Reflection: 11-Reflection/Reflection.md
